@@ -2,7 +2,7 @@
 ISA-Bench(Instruction Sensitivity of large Audio language models Benchmark):v1.0, Coming soon.
 
 ## Detailed Results
-We report the detailed results of ISA-Bench. 
+We report the detailed results of ISA-Bench here. 
 
 <details>
 <summary>D Dimension</summary>
