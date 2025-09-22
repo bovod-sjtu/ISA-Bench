@@ -143,3 +143,85 @@ We report the detailed results of ISA-Bench here.
 | 3-task-json | 87.74 / 85.97 | 2.53 / 2.47 | 92.6 / 89.95 | - / - | 0.19 / 0.19 | 73.26 / 71.74 | 89.95 / 50.44 | 51.45 / 41.66 | 0.0 / 0.0 |
 
 </details>
+
+
+# Column Figure
+
+## D&F Dimension Comparison
+<details>
+<summary>Legend</summary>
+
+![Legend Compact](column_fig_all/legend_compact.png)
+
+</details>
+<details>
+<summary>AAC </summary>
+
+![AAC Distance](column_fig_all/aac_d.png)
+![AAC Time](column_fig_all/aac_t.png)
+
+</details>
+
+<details>
+<summary>ASR </summary>
+
+![ASR Distance](column_fig_all/asr_d.png)
+![ASR Time](column_fig_all/asr_t.png)
+
+</details>
+
+<details>
+<summary>GR </summary>
+
+![GR Distance](column_fig_all/gr_d.png)
+![GR Time](column_fig_all/gr_t.png)
+
+</details>
+
+<details>
+<summary>S2TT </summary>
+
+![S2TT Distance](column_fig_all/s2tt_d.png)
+![S2TT Time](column_fig_all/s2tt_t.png)
+
+</details>
+
+<details>
+<summary>SER </summary>
+
+![SER Distance](column_fig_all/ser_d.png)
+![SER Time](column_fig_all/ser_t.png)
+
+</details>
+
+
+
+## N Dimension Comparison
+<details>
+<summary>Combined Legend</summary>
+
+![Combined Legend](n_compare_all/combined_legend.png)
+
+</details>
+
+<details>
+<summary>ASR Multi-Model Comparison</summary>
+
+![ASR Multi-Model Comparison](n_compare_all/asr_multi_model_comparison.png)
+
+</details>
+
+<details>
+<summary>GR Multi-Model Comparison</summary>
+
+![GR Multi-Model Comparison](n_compare_all/gr_multi_model_comparison.png)
+
+</details>
+
+<details>
+<summary>SER Multi-Model Comparison</summary>
+
+![SER Multi-Model Comparison](n_compare_all/ser_multi_model_comparison.png)
+
+</details>
+
