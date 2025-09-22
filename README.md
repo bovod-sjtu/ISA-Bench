@@ -148,80 +148,99 @@ We report the detailed results of ISA-Bench here.
 # Column Figure
 
 ## D&F Dimension Comparison
+
 <details>
 <summary>Legend</summary>
 
 ![Legend Compact](column_fig_all/legend_compact.png)
-
-</details>
-<details>
-<summary>AAC </summary>
-
-![AAC Distance](column_fig_all/aac_d.png)
-![AAC Time](column_fig_all/aac_t.png)
-
 </details>
 
+## D Dimension (Description) - All Tasks Comparison
+
 <details>
-<summary>ASR </summary>
+<summary>AAC</summary>
 
-![ASR Distance](column_fig_all/asr_d.png)
-![ASR Time](column_fig_all/asr_t.png)
-
+![AAC Description](column_fig_all/aac_d.png)
 </details>
 
 <details>
-<summary>GR </summary>
+<summary>ASR</summary>
 
-![GR Distance](column_fig_all/gr_d.png)
-![GR Time](column_fig_all/gr_t.png)
-
+![ASR Description](column_fig_all/asr_d.png)
 </details>
 
 <details>
-<summary>S2TT </summary>
+<summary>GR</summary>
 
-![S2TT Distance](column_fig_all/s2tt_d.png)
-![S2TT Time](column_fig_all/s2tt_t.png)
-
+![GR Description](column_fig_all/gr_d.png)
 </details>
 
 <details>
-<summary>SER </summary>
+<summary>S2TT</summary>
 
-![SER Distance](column_fig_all/ser_d.png)
-![SER Time](column_fig_all/ser_t.png)
-
+![S2TT Description](column_fig_all/s2tt_d.png)
 </details>
 
+<details>
+<summary>SER</summary>
 
+![SER Description](column_fig_all/ser_d.png)
+</details>
+
+## F Dimension (Format) - All Tasks Comparison
+
+<details>
+<summary>AAC</summary>
+
+![AAC Format](column_fig_all/aac_t.png)
+</details>
+
+<details>
+<summary>ASR</summary>
+
+![ASR Format](column_fig_all/asr_t.png)
+</details>
+
+<details>
+<summary>GR</summary>
+
+![GR Format](column_fig_all/gr_t.png)
+</details>
+
+<details>
+<summary>S2TT</summary>
+
+![S2TT Format](column_fig_all/s2tt_t.png)
+</details>
+
+<details>
+<summary>SER</summary>
+
+![SER Format](column_fig_all/ser_t.png)
+</details>
 
 ## N Dimension Comparison
+
 <details>
 <summary>Combined Legend</summary>
 
 ![Combined Legend](n_compare_all/combined_legend.png)
-
 </details>
 
 <details>
 <summary>ASR Multi-Model Comparison</summary>
 
 ![ASR Multi-Model Comparison](n_compare_all/asr_multi_model_comparison.png)
-
 </details>
 
 <details>
 <summary>GR Multi-Model Comparison</summary>
 
 ![GR Multi-Model Comparison](n_compare_all/gr_multi_model_comparison.png)
-
 </details>
 
 <details>
 <summary>SER Multi-Model Comparison</summary>
 
 ![SER Multi-Model Comparison](n_compare_all/ser_multi_model_comparison.png)
-
 </details>
-
