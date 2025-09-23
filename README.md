@@ -58,6 +58,34 @@ We report the detailed results of ISA-Bench here.
 | semantic complexity | 81.05 / 0.1 | 95.4 / 0.11 | 40.77 / 0.08 | 97.86 / 0.11 | 73.14 / 0.13 | 13.45 / 0.03 | 36.65 / 0.06 | 63.31 / 0.01 | - / - |
 | punctuation | 80.71 / 0.122 | 93.67 / 0.1294 | 20.02 / 0.0405 | 97.1 / 0.114 | 55.29 / 0.1017 | 4.05 / 0.0069 | 59.96 / 0.0869 | 36.31 / 0.0119 | - / - |
 
+
+**Legend**
+
+![Legend Compact](column_fig_all/legend_compact.png)
+
+**D Dimension (Description) - All Tasks Comparison**
+
+- AAC
+
+  ![AAC Description](column_fig_all/aac_d.png)
+
+- ASR
+
+  ![ASR Description](column_fig_all/asr_d.png)
+
+- GR
+
+  ![GR Description](column_fig_all/gr_d.png)
+
+- S2TT
+
+  ![S2TT Description](column_fig_all/s2tt_d.png)
+
+- SER
+
+  ![SER Description](column_fig_all/ser_d.png)
+
+
 </details>
 
 <details>
@@ -108,7 +136,38 @@ We report the detailed results of ISA-Bench here.
 | decoration | 73.24 / 0.11 | 96.19 / 0.14 | 67.22 / 0.14 | 91.46 / 0.1 | 47.65 / 0.07 | 3.15 / 0.0 | 16.56 / 0.02 | 33.47 / 0.03 | - / - |
 | json | 95.75 / 0.1517 | 0.83 / 0.0013 | 98.03 / 0.2113 | 83.92 / 0.0993 | 11.2 / 0.0212 | 66.29 / 0.1344 | 95.12 / 0.155 | 17.84 / 0.0051 | - / - |
 
+
+
+
+**Legend**
+
+![Legend Compact](column_fig_all/legend_compact.png)
+
+**F Dimension (Format) - All Tasks Comparison**
+
+- AAC
+
+  ![AAC Format](column_fig_all/aac_t.png)
+
+- ASR
+
+  ![ASR Format](column_fig_all/asr_t.png)
+
+- GR
+
+  ![GR Format](column_fig_all/gr_t.png)
+
+- S2TT
+
+  ![S2TT Format](column_fig_all/s2tt_t.png)
+
+- SER
+
+  ![SER Format](column_fig_all/ser_t.png)
+
+
 </details>
+
 
 
 <details>
@@ -142,105 +201,26 @@ We report the detailed results of ISA-Bench here.
 | 2-task-json | 92.04 / 90.58 | 2.53 / 2.53 | 95.95 / 93.36 | - / - | 1.96 / 1.96 | 70.35 / 69.22 | 90.64 / 52.53 | 40.9 / 34.01 | 0.0 / 0.0 |
 | 3-task-json | 87.74 / 85.97 | 2.53 / 2.47 | 92.6 / 89.95 | - / - | 0.19 / 0.19 | 73.26 / 71.74 | 89.95 / 50.44 | 51.45 / 41.66 | 0.0 / 0.0 |
 
+
+
+**N Dimension Comparison**
+
+- Combined Legend
+
+  ![Combined Legend](n_compare_all/combined_legend.png)
+
+- ASR Multi-Model Comparison
+
+  ![ASR Multi-Model Comparison](n_compare_all/asr_multi_model_comparison.png)
+
+- GR Multi-Model Comparison
+
+  ![GR Multi-Model Comparison](n_compare_all/gr_multi_model_comparison.png)
+
+- SER Multi-Model Comparison
+
+  ![SER Multi-Model Comparison](n_compare_all/ser_multi_model_comparison.png)
+
+
 </details>
 
-
-# Column Figure
-
-## D&F Dimension Comparison
-
-<details>
-<summary>Legend</summary>
-
-![Legend Compact](column_fig_all/legend_compact.png)
-</details>
-
-## D Dimension (Description) - All Tasks Comparison
-
-<details>
-<summary>AAC</summary>
-
-![AAC Description](column_fig_all/aac_d.png)
-</details>
-
-<details>
-<summary>ASR</summary>
-
-![ASR Description](column_fig_all/asr_d.png)
-</details>
-
-<details>
-<summary>GR</summary>
-
-![GR Description](column_fig_all/gr_d.png)
-</details>
-
-<details>
-<summary>S2TT</summary>
-
-![S2TT Description](column_fig_all/s2tt_d.png)
-</details>
-
-<details>
-<summary>SER</summary>
-
-![SER Description](column_fig_all/ser_d.png)
-</details>
-
-## F Dimension (Format) - All Tasks Comparison
-
-<details>
-<summary>AAC</summary>
-
-![AAC Format](column_fig_all/aac_t.png)
-</details>
-
-<details>
-<summary>ASR</summary>
-
-![ASR Format](column_fig_all/asr_t.png)
-</details>
-
-<details>
-<summary>GR</summary>
-
-![GR Format](column_fig_all/gr_t.png)
-</details>
-
-<details>
-<summary>S2TT</summary>
-
-![S2TT Format](column_fig_all/s2tt_t.png)
-</details>
-
-<details>
-<summary>SER</summary>
-
-![SER Format](column_fig_all/ser_t.png)
-</details>
-
-## N Dimension Comparison
-
-<details>
-<summary>Combined Legend</summary>
-
-![Combined Legend](n_compare_all/combined_legend.png)
-</details>
-
-<details>
-<summary>ASR Multi-Model Comparison</summary>
-
-![ASR Multi-Model Comparison](n_compare_all/asr_multi_model_comparison.png)
-</details>
-
-<details>
-<summary>GR Multi-Model Comparison</summary>
-
-![GR Multi-Model Comparison](n_compare_all/gr_multi_model_comparison.png)
-</details>
-
-<details>
-<summary>SER Multi-Model Comparison</summary>
-
-![SER Multi-Model Comparison](n_compare_all/ser_multi_model_comparison.png)
-</details>
