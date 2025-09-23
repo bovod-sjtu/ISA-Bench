@@ -1,5 +1,29 @@
 # ISA-Bench
 ISA-Bench(Instruction Sensitivity of large Audio language models Benchmark):v1.0, Coming soon.
+## Main results
+
+Two radar plots in (a) show the average IFR, and (b) presents the average RPS score across tasks
+
+![radar](main_fig/radar.png)
+
+Normalized radar plot areas of different models (maxi-mum polygon area = 1). Left: IFR area; Right: RPS area.
+
+![area](main_fig/area.png)
+
+rps area-ratio score
+
+| model                   | RPS AREA-RATIO SCORE (%) |
+|------------------------|---------------------------|
+| gemini2.5-pro          | 52.5                      |
+| desta2.5-audio         | 50.5                      |
+| qwen2.5-omni           | 44.8                      |
+| gpt-4o-audio-preview   | 38.6                      |
+| qwen2-audio            | 36.1                      |
+| kimi-audio             | 33.2                      |
+| phi4-multimodal-instruct | 12.9                    |
+| salmonn                | 7.5                       |
+| wavllm                 | 3.3                       |
+
 
 ## Detailed Results
 We report the detailed results of ISA-Bench here. 
