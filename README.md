@@ -4,11 +4,11 @@ ISA-Bench(Instruction Sensitivity of large Audio language models Benchmark):v1.0
 
 Two radar plots in (a) show the average IFR, and (b) presents the average RPS score across tasks
 
-![radar](main_fig/radar.png)
+![radar](figures/radar.png)
 
 Normalized radar plot areas of different models (maxi-mum polygon area = 1). Left: IFR area; Right: RPS area.
 
-![area](main_fig/area.png)
+![area](figures/area.png)
 
 rps area-ratio score
 
@@ -85,29 +85,29 @@ We report the detailed results of ISA-Bench here.
 
 **Legend**
 
-![Legend Compact](column_fig_all/legend_compact.png)
+![Legend Compact](figures/legend_compact.png)
 
 **D Dimension (Description) - All Tasks Comparison**
 
 - AAC
 
-  ![AAC Description](column_fig_all/aac_d.png)
+  ![AAC Description](figures/aac_d.png)
 
 - ASR
 
-  ![ASR Description](column_fig_all/asr_d.png)
+  ![ASR Description](figures/asr_d.png)
 
 - GR
 
-  ![GR Description](column_fig_all/gr_d.png)
+  ![GR Description](figures/gr_d.png)
 
 - S2TT
 
-  ![S2TT Description](column_fig_all/s2tt_d.png)
+  ![S2TT Description](figures/s2tt_d.png)
 
 - SER
 
-  ![SER Description](column_fig_all/ser_d.png)
+  ![SER Description](figures/ser_d.png)
 
 
 </details>
@@ -165,29 +165,29 @@ We report the detailed results of ISA-Bench here.
 
 **Legend**
 
-![Legend Compact](column_fig_all/legend_compact.png)
+![Legend Compact](figures/legend_compact.png)
 
 **F Dimension (Format) - All Tasks Comparison**
 
 - AAC
 
-  ![AAC Format](column_fig_all/aac_t.png)
+  ![AAC Format](figures/aac_t.png)
 
 - ASR
 
-  ![ASR Format](column_fig_all/asr_t.png)
+  ![ASR Format](figures/asr_t.png)
 
 - GR
 
-  ![GR Format](column_fig_all/gr_t.png)
+  ![GR Format](figures/gr_t.png)
 
 - S2TT
 
-  ![S2TT Format](column_fig_all/s2tt_t.png)
+  ![S2TT Format](figures/s2tt_t.png)
 
 - SER
 
-  ![SER Format](column_fig_all/ser_t.png)
+  ![SER Format](figures/ser_t.png)
 
 
 </details>
@@ -231,19 +231,19 @@ We report the detailed results of ISA-Bench here.
 
 - Combined Legend
 
-  ![Combined Legend](n_compare_all/combined_legend.png)
+  ![Combined Legend](figures/combined_legend.png)
 
 - ASR Multi-Model Comparison
 
-  ![ASR Multi-Model Comparison](n_compare_all/asr_multi_model_comparison.png)
+  ![ASR Multi-Model Comparison](figures/asr_multi_model_comparison.png)
 
 - GR Multi-Model Comparison
 
-  ![GR Multi-Model Comparison](n_compare_all/gr_multi_model_comparison.png)
+  ![GR Multi-Model Comparison](figures/gr_multi_model_comparison.png)
 
 - SER Multi-Model Comparison
 
-  ![SER Multi-Model Comparison](n_compare_all/ser_multi_model_comparison.png)
+  ![SER Multi-Model Comparison](figures/ser_multi_model_comparison.png)
 
 
 </details>
