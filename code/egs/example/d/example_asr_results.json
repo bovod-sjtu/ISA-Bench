@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/yiwei.guo/datasets/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac",
+    "text": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+    "task": "asr",
+    "base": [
+      "Would you record the speech content?",
+      "start it with \"The transcript is: \""
+    ],
+    "variation_responses": {
+      "default": "The transcribed text from the audio is: he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce",
+      "case": {
+        "lower_case": "The transcribed text from the audio is: he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce",
+        "upper_case": "The transcript is: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce"
+      },
+      "robust": {
+        "grammar_robust": "The audio clip's transcription reads: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce",
+        "syntax_robust": "The transcript is: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce"
+      },
+      "semantic_equal_simple": [
+        "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce."
+      ],
+      "semantic_equal_neutral": [
+        "The transcribed text from the audio is: he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce"
+      ],
+      "semantic_equal_complex": [
+        "He hoped there would be stew for dinner, turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce."
+      ],
+      "alter_symbol": [
+        "The transcribed text from the audio is: he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce"
+      ]
+    }
+  }
+]

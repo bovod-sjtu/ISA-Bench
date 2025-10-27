@@ -1,0 +1,5125 @@
+{
+  "wavllm": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 14.89,
+          "wer": 87.45
+        },
+        "case": {
+          "ifr": 14.39,
+          "wer": 88.65
+        },
+        "robust": {
+          "ifr": 8.11,
+          "wer": 93.83
+        },
+        "semantic_equal_simple": {
+          "ifr": 12.44,
+          "wer": 89.19
+        },
+        "semantic_equal_neutral": {
+          "ifr": 18.02,
+          "wer": 83.84
+        },
+        "semantic_equal_complex": {
+          "ifr": 18.51,
+          "wer": 86.54
+        },
+        "alter_symbol": {
+          "ifr": 13.63,
+          "wer": 88.36
+        },
+        "all": {
+          "ifr": 13.61,
+          "wer": 88.93
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 23.63,
+          "acc": 11.29
+        },
+        "default": {
+          "ifr": 4.08,
+          "acc": 1.98
+        },
+        "case": {
+          "ifr": 26.43,
+          "acc": 12.71
+        },
+        "robust": {
+          "ifr": 1.64,
+          "acc": 0.95
+        },
+        "semantic_equal_simple": {
+          "ifr": 18.55,
+          "acc": 8.4
+        },
+        "semantic_equal_neutral": {
+          "ifr": 73.28,
+          "acc": 35.5
+        },
+        "semantic_equal_complex": {
+          "ifr": 54.62,
+          "acc": 25.61
+        },
+        "alter_symbol": {
+          "ifr": 5.95,
+          "acc": 2.82
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 71.87,
+          "acc": 42.52
+        },
+        "default": {
+          "ifr": 81.79,
+          "acc": 48.67
+        },
+        "case": {
+          "ifr": 73.33,
+          "acc": 41.86
+        },
+        "robust": {
+          "ifr": 62.89,
+          "acc": 37.71
+        },
+        "semantic_equal_simple": {
+          "ifr": 82.68,
+          "acc": 49.07
+        },
+        "semantic_equal_neutral": {
+          "ifr": 85.5,
+          "acc": 50.04
+        },
+        "semantic_equal_complex": {
+          "ifr": 44.88,
+          "acc": 26.99
+        },
+        "alter_symbol": {
+          "ifr": 79.53,
+          "acc": 48.75
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 28.91,
+          "bleu": 3.25,
+          "p1": 50.38,
+          "p2": 30.66,
+          "p3": 20.41,
+          "p4": 14.12,
+          "bp": 0.126,
+          "len_ratio": 0.3256
+        },
+        "default": {
+          "ifr": 31.74,
+          "bleu": 6.49,
+          "p1": 37.13,
+          "p2": 22.22,
+          "p3": 14.55,
+          "p4": 9.82,
+          "bp": 0.3501,
+          "len_ratio": 0.4879
+        },
+        "grammar_robust": {
+          "ifr": 14.67,
+          "bleu": 0.38,
+          "p1": 37.65,
+          "p2": 22.54,
+          "p3": 14.9,
+          "p4": 10.1,
+          "bp": 0.0203,
+          "len_ratio": 0.2041
+        },
+        "lower_case": {
+          "ifr": 29.22,
+          "bleu": 4.81,
+          "p1": 39.74,
+          "p2": 23.83,
+          "p3": 15.61,
+          "p4": 10.53,
+          "bp": 0.2419,
+          "len_ratio": 0.4134
+        },
+        "semantic_equal_complex": {
+          "ifr": 40.33,
+          "bleu": 10.81,
+          "p1": 35.58,
+          "p2": 21.32,
+          "p3": 13.93,
+          "p4": 9.37,
+          "bp": 0.6092,
+          "len_ratio": 0.6686
+        },
+        "semantic_equal_neutral": {
+          "ifr": 32.67,
+          "bleu": 5.17,
+          "p1": 47.63,
+          "p2": 28.93,
+          "p3": 19.18,
+          "p4": 13.16,
+          "bp": 0.2129,
+          "len_ratio": 0.3926
+        },
+        "semantic_equal_simple": {
+          "ifr": 37.1,
+          "bleu": 5.46,
+          "p1": 53.03,
+          "p2": 32.49,
+          "p3": 21.85,
+          "p4": 15.19,
+          "bp": 0.1984,
+          "len_ratio": 0.382
+        },
+        "syntax_robust": {
+          "ifr": 21.09,
+          "bleu": 0.9,
+          "p1": 40.23,
+          "p2": 23.95,
+          "p3": 15.74,
+          "p4": 10.69,
+          "bp": 0.0447,
+          "len_ratio": 0.2435
+        },
+        "upper_case": {
+          "ifr": 31.57,
+          "bleu": 6.17,
+          "p1": 21.52,
+          "p2": 11.85,
+          "p3": 7.27,
+          "p4": 4.59,
+          "bp": 0.642,
+          "len_ratio": 0.6929
+        },
+        "all": {
+          "ifr": 29.7,
+          "bleu": 4.88,
+          "p1": 38.34,
+          "p2": 22.85,
+          "p3": 14.94,
+          "p4": 10.07,
+          "bp": 0.2562,
+          "len_ratio": 0.4234
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 99.2,
+          "wer": 3.02
+        },
+        "upper_case": {
+          "ifr": 23.7,
+          "wer": 82.84
+        },
+        "lower_case": {
+          "ifr": 98.21,
+          "wer": 4.08
+        },
+        "prefix": {
+          "ifr": 17.37,
+          "wer": 95.97
+        },
+        "suffix": {
+          "ifr": 1.03,
+          "wer": 99.78
+        },
+        "wrap": {
+          "ifr": 25.31,
+          "wer": 83.15
+        },
+        "json": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "all": {
+          "ifr": 37.83,
+          "wer": 66.98
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 4.54,
+          "acc": 2.21
+        },
+        "upper_case": {
+          "ifr": 6.91,
+          "acc": 3.32
+        },
+        "lower_case": {
+          "ifr": 1.41,
+          "acc": 0.65
+        },
+        "prefix": {
+          "ifr": 0.15,
+          "acc": 0.04
+        },
+        "suffix": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "wrap": {
+          "ifr": 4.81,
+          "acc": 2.37
+        },
+        "json": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "all": {
+          "ifr": 2.55,
+          "acc": 1.23
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 16.68,
+          "acc": 9.35
+        },
+        "upper_case": {
+          "ifr": 29.49,
+          "acc": 13.3
+        },
+        "lower_case": {
+          "ifr": 23.69,
+          "acc": 13.46
+        },
+        "prefix": {
+          "ifr": 2.82,
+          "acc": 1.45
+        },
+        "suffix": {
+          "ifr": 0.16,
+          "acc": 0.08
+        },
+        "wrap": {
+          "ifr": 7.98,
+          "acc": 4.83
+        },
+        "json": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "all": {
+          "ifr": 11.55,
+          "acc": 6.07
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 95.89,
+          "bleu": 29.89
+        },
+        "prefix": {
+          "ifr": 25.19,
+          "bleu": 2.88
+        },
+        "suffix": {
+          "ifr": 2.82,
+          "bleu": 0.0
+        },
+        "wrap": {
+          "ifr": 17.99,
+          "bleu": 1.12
+        },
+        "json": {
+          "ifr": 0.0,
+          "bleu": 0.0
+        },
+        "all": {
+          "ifr": 28.38,
+          "bleu": 3.17
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 0.0,
+              "wer": 100.0,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 0.08,
+              "acc": 0.03,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 0.08,
+              "acc": 0.06,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 0.0,
+              "wer": 100.0,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 0.0,
+              "acc": 0.0,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 0.0,
+              "acc": 0.0,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 0.05,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 0.0,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "desta2.5-audio": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 93.09,
+          "wer": 43.14
+        },
+        "case": {
+          "ifr": 85.29,
+          "wer": 45.49
+        },
+        "robust": {
+          "ifr": 68.42,
+          "wer": 49.56
+        },
+        "semantic_equal_simple": {
+          "ifr": 91.64,
+          "wer": 26.64
+        },
+        "semantic_equal_neutral": {
+          "ifr": 94.08,
+          "wer": 43.08
+        },
+        "semantic_equal_complex": {
+          "ifr": 94.77,
+          "wer": 10.62
+        },
+        "alter_symbol": {
+          "ifr": 91.6,
+          "wer": 38.93
+        },
+        "all": {
+          "ifr": 85.84,
+          "wer": 39.17
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 96.36,
+          "acc": 85.48
+        },
+        "default": {
+          "ifr": 100.0,
+          "acc": 89.96
+        },
+        "case": {
+          "ifr": 100.0,
+          "acc": 89.26
+        },
+        "robust": {
+          "ifr": 90.25,
+          "acc": 79.62
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.92,
+          "acc": 88.74
+        },
+        "semantic_equal_neutral": {
+          "ifr": 100.0,
+          "acc": 89.39
+        },
+        "semantic_equal_complex": {
+          "ifr": 86.83,
+          "acc": 74.31
+        },
+        "alter_symbol": {
+          "ifr": 100.0,
+          "acc": 89.16
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 89.27,
+          "acc": 64.81
+        },
+        "default": {
+          "ifr": 97.58,
+          "acc": 70.83
+        },
+        "case": {
+          "ifr": 94.56,
+          "acc": 68.05
+        },
+        "robust": {
+          "ifr": 76.83,
+          "acc": 56.16
+        },
+        "semantic_equal_simple": {
+          "ifr": 95.25,
+          "acc": 69.78
+        },
+        "semantic_equal_neutral": {
+          "ifr": 98.63,
+          "acc": 71.88
+        },
+        "semantic_equal_complex": {
+          "ifr": 70.83,
+          "acc": 50.6
+        },
+        "alter_symbol": {
+          "ifr": 98.39,
+          "acc": 71.8
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 77.86,
+          "bleu": 20.74,
+          "p1": 51.48,
+          "p2": 32.07,
+          "p3": 21.9,
+          "p4": 15.55,
+          "bp": 0.7572,
+          "len_ratio": 0.7824
+        },
+        "default": {
+          "ifr": 81.33,
+          "bleu": 21.44,
+          "p1": 51.41,
+          "p2": 31.98,
+          "p3": 21.81,
+          "p4": 15.49,
+          "bp": 0.7854,
+          "len_ratio": 0.8054
+        },
+        "grammar_robust": {
+          "ifr": 42.01,
+          "bleu": 5.59,
+          "p1": 47.05,
+          "p2": 30.15,
+          "p3": 21.02,
+          "p4": 15.23,
+          "bp": 0.2152,
+          "len_ratio": 0.3943
+        },
+        "lower_case": {
+          "ifr": 82.15,
+          "bleu": 22.05,
+          "p1": 46.94,
+          "p2": 28.44,
+          "p3": 19.1,
+          "p4": 13.36,
+          "bp": 0.9128,
+          "len_ratio": 0.9164
+        },
+        "semantic_equal_complex": {
+          "ifr": 71.63,
+          "bleu": 18.18,
+          "p1": 52.23,
+          "p2": 32.43,
+          "p3": 22.15,
+          "p4": 15.75,
+          "bp": 0.6556,
+          "len_ratio": 0.7032
+        },
+        "semantic_equal_neutral": {
+          "ifr": 82.31,
+          "bleu": 21.21,
+          "p1": 52.5,
+          "p2": 32.55,
+          "p3": 22.16,
+          "p4": 15.71,
+          "bp": 0.7638,
+          "len_ratio": 0.7878
+        },
+        "semantic_equal_simple": {
+          "ifr": 66.97,
+          "bleu": 15.63,
+          "p1": 51.5,
+          "p2": 32.7,
+          "p3": 22.64,
+          "p4": 16.28,
+          "bp": 0.557,
+          "len_ratio": 0.6308
+        },
+        "syntax_robust": {
+          "ifr": 30.87,
+          "bleu": 4.16,
+          "p1": 38.88,
+          "p2": 24.19,
+          "p3": 16.51,
+          "p4": 11.73,
+          "bp": 0.2015,
+          "len_ratio": 0.3843
+        },
+        "upper_case": {
+          "ifr": 82.14,
+          "bleu": 22.26,
+          "p1": 43.69,
+          "p2": 26.33,
+          "p3": 17.55,
+          "p4": 12.17,
+          "bp": 1.0,
+          "len_ratio": 1.0214
+        },
+        "all": {
+          "ifr": 68.58,
+          "bleu": 17.25,
+          "p1": 48.77,
+          "p2": 30.19,
+          "p3": 20.54,
+          "p4": 14.54,
+          "bp": 0.6699,
+          "len_ratio": 0.714
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 80.71,
+          "METEOR": 0.122,
+          "CIDEr-D": 0.146,
+          "ROUGE-L": 0.232
+        },
+        "default": {
+          "ifr": 78.42,
+          "METEOR": 0.1183,
+          "CIDEr-D": 0.1405,
+          "ROUGE-L": 0.226
+        },
+        "grammar_robust": {
+          "ifr": 66.6,
+          "METEOR": 0.1026,
+          "CIDEr-D": 0.1383,
+          "ROUGE-L": 0.1974
+        },
+        "lower_case": {
+          "ifr": 76.87,
+          "METEOR": 0.1165,
+          "CIDEr-D": 0.1233,
+          "ROUGE-L": 0.217
+        },
+        "semantic_equal_complex": {
+          "ifr": 79.67,
+          "METEOR": 0.0748,
+          "CIDEr-D": 0.0069,
+          "ROUGE-L": 0.0914
+        },
+        "semantic_equal_neutral": {
+          "ifr": 84.02,
+          "METEOR": 0.1194,
+          "CIDEr-D": 0.1361,
+          "ROUGE-L": 0.2351
+        },
+        "semantic_equal_simple": {
+          "ifr": 79.46,
+          "METEOR": 0.1171,
+          "CIDEr-D": 0.2094,
+          "ROUGE-L": 0.2425
+        },
+        "syntax_robust": {
+          "ifr": 65.98,
+          "METEOR": 0.1025,
+          "CIDEr-D": 0.1136,
+          "ROUGE-L": 0.1874
+        },
+        "upper_case": {
+          "ifr": 57.78,
+          "METEOR": 0.0877,
+          "CIDEr-D": 0.1101,
+          "ROUGE-L": 0.164
+        },
+        "all": {
+          "ifr": 74.39,
+          "METEOR": 0.1027,
+          "CIDEr-D": 0.1202,
+          "ROUGE-L": 0.1992
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 97.79,
+          "wer": 7.71
+        },
+        "upper_case": {
+          "ifr": 98.82,
+          "wer": 6.14
+        },
+        "lower_case": {
+          "ifr": 99.89,
+          "wer": 4.16
+        },
+        "prefix": {
+          "ifr": 86.18,
+          "wer": 20.41
+        },
+        "suffix": {
+          "ifr": 72.48,
+          "wer": 30.59
+        },
+        "wrap": {
+          "ifr": 94.73,
+          "wer": 10.37
+        },
+        "json": {
+          "ifr": 99.39,
+          "wer": 3.81
+        },
+        "all": {
+          "ifr": 92.75,
+          "wer": 11.88
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 91.41,
+          "acc": 82.33
+        },
+        "upper_case": {
+          "ifr": 96.26,
+          "acc": 82.14
+        },
+        "lower_case": {
+          "ifr": 98.28,
+          "acc": 87.79
+        },
+        "prefix": {
+          "ifr": 82.56,
+          "acc": 70.23
+        },
+        "suffix": {
+          "ifr": 79.31,
+          "acc": 71.91
+        },
+        "wrap": {
+          "ifr": 92.18,
+          "acc": 79.69
+        },
+        "json": {
+          "ifr": 87.6,
+          "acc": 77.02
+        },
+        "all": {
+          "ifr": 89.66,
+          "acc": 78.73
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 89.52,
+          "acc": 65.03
+        },
+        "upper_case": {
+          "ifr": 96.7,
+          "acc": 63.42
+        },
+        "lower_case": {
+          "ifr": 98.23,
+          "acc": 69.94
+        },
+        "prefix": {
+          "ifr": 73.73,
+          "acc": 52.3
+        },
+        "suffix": {
+          "ifr": 83.32,
+          "acc": 61.24
+        },
+        "wrap": {
+          "ifr": 91.46,
+          "acc": 64.06
+        },
+        "json": {
+          "ifr": 96.7,
+          "acc": 68.9
+        },
+        "all": {
+          "ifr": 89.95,
+          "acc": 63.55
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 86.67,
+          "bleu": 25.81
+        },
+        "prefix": {
+          "ifr": 78.02,
+          "bleu": 23.68
+        },
+        "suffix": {
+          "ifr": 53.78,
+          "bleu": 15.14
+        },
+        "wrap": {
+          "ifr": 87.39,
+          "bleu": 26.68
+        },
+        "json": {
+          "ifr": 29.8,
+          "bleu": 0.73
+        },
+        "all": {
+          "ifr": 67.13,
+          "bleu": 18.26
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 75.1,
+          "METEOR": 0.1119,
+          "CIDEr-D": 0.1836,
+          "ROUGE-L": 0.2373
+        },
+        "upper_case": {
+          "ifr": 85.37,
+          "METEOR": 0.0792,
+          "CIDEr-D": 0.1116,
+          "ROUGE-L": 0.1672
+        },
+        "lower_case": {
+          "ifr": 96.89,
+          "METEOR": 0.1234,
+          "CIDEr-D": 0.1908,
+          "ROUGE-L": 0.253
+        },
+        "prefix": {
+          "ifr": 89.94,
+          "METEOR": 0.1434,
+          "CIDEr-D": 0.1774,
+          "ROUGE-L": 0.2757
+        },
+        "suffix": {
+          "ifr": 37.45,
+          "METEOR": 0.058,
+          "CIDEr-D": 0.0505,
+          "ROUGE-L": 0.0988
+        },
+        "wrap": {
+          "ifr": 92.32,
+          "METEOR": 0.1418,
+          "CIDEr-D": 0.147,
+          "ROUGE-L": 0.2592
+        },
+        "json": {
+          "ifr": 95.75,
+          "METEOR": 0.1517,
+          "CIDEr-D": 0.2548,
+          "ROUGE-L": 0.3041
+        },
+        "all": {
+          "ifr": 81.83,
+          "METEOR": 0.1166,
+          "CIDEr-D": 0.1547,
+          "ROUGE-L": 0.2279
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 73.28,
+              "wer": 37.86,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 82.1,
+              "acc": 58.45,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 84.83,
+              "acc": 83.39,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 76.53,
+              "wer": 34.78,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 76.53,
+              "acc": 54.73,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 76.53,
+              "acc": 74.98,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 68.79,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 87.8,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "kimi-audio": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 2.21,
+          "wer": 97.89
+        },
+        "case": {
+          "ifr": 4.45,
+          "wer": 96.46
+        },
+        "robust": {
+          "ifr": 6.22,
+          "wer": 94.99
+        },
+        "semantic_equal_simple": {
+          "ifr": 2.86,
+          "wer": 97.83
+        },
+        "semantic_equal_neutral": {
+          "ifr": 3.28,
+          "wer": 97.42
+        },
+        "semantic_equal_complex": {
+          "ifr": 24.05,
+          "wer": 79.05
+        },
+        "alter_symbol": {
+          "ifr": 3.28,
+          "wer": 96.98
+        },
+        "all": {
+          "ifr": 6.34,
+          "wer": 94.68
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 99.95,
+          "acc": 92.9
+        },
+        "default": {
+          "ifr": 99.96,
+          "acc": 92.75
+        },
+        "case": {
+          "ifr": 99.96,
+          "acc": 93.02
+        },
+        "robust": {
+          "ifr": 99.92,
+          "acc": 93.7
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.96,
+          "acc": 90.23
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.96,
+          "acc": 92.33
+        },
+        "semantic_equal_complex": {
+          "ifr": 99.92,
+          "acc": 94.62
+        },
+        "alter_symbol": {
+          "ifr": 100.0,
+          "acc": 92.75
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 91.19,
+          "acc": 72.58
+        },
+        "default": {
+          "ifr": 94.2,
+          "acc": 74.62
+        },
+        "case": {
+          "ifr": 93.8,
+          "acc": 74.58
+        },
+        "robust": {
+          "ifr": 94.0,
+          "acc": 74.54
+        },
+        "semantic_equal_simple": {
+          "ifr": 95.65,
+          "acc": 75.66
+        },
+        "semantic_equal_neutral": {
+          "ifr": 94.92,
+          "acc": 76.07
+        },
+        "semantic_equal_complex": {
+          "ifr": 65.59,
+          "acc": 53.02
+        },
+        "alter_symbol": {
+          "ifr": 94.76,
+          "acc": 75.58
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 4.05,
+          "METEOR": 0.0069,
+          "CIDEr-D": 0.0275,
+          "ROUGE-L": 0.0179
+        },
+        "default": {
+          "ifr": 4.67,
+          "METEOR": 0.0073,
+          "CIDEr-D": 0.0237,
+          "ROUGE-L": 0.0191
+        },
+        "grammar_robust": {
+          "ifr": 6.02,
+          "METEOR": 0.0113,
+          "CIDEr-D": 0.0424,
+          "ROUGE-L": 0.0273
+        },
+        "lower_case": {
+          "ifr": 4.56,
+          "METEOR": 0.0074,
+          "CIDEr-D": 0.0211,
+          "ROUGE-L": 0.0187
+        },
+        "semantic_equal_complex": {
+          "ifr": 30.6,
+          "METEOR": 0.0617,
+          "CIDEr-D": 0.0798,
+          "ROUGE-L": 0.104
+        },
+        "semantic_equal_neutral": {
+          "ifr": 4.15,
+          "METEOR": 0.0075,
+          "CIDEr-D": 0.0352,
+          "ROUGE-L": 0.019
+        },
+        "semantic_equal_simple": {
+          "ifr": 5.6,
+          "METEOR": 0.0094,
+          "CIDEr-D": 0.0363,
+          "ROUGE-L": 0.0241
+        },
+        "syntax_robust": {
+          "ifr": 4.15,
+          "METEOR": 0.0065,
+          "CIDEr-D": 0.0192,
+          "ROUGE-L": 0.0168
+        },
+        "upper_case": {
+          "ifr": 6.22,
+          "METEOR": 0.0118,
+          "CIDEr-D": 0.0414,
+          "ROUGE-L": 0.0277
+        },
+        "all": {
+          "ifr": 7.78,
+          "METEOR": 0.0147,
+          "CIDEr-D": 0.0354,
+          "ROUGE-L": 0.0305
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 97.79,
+          "wer": 3.29
+        },
+        "upper_case": {
+          "ifr": 3.44,
+          "wer": 97.85
+        },
+        "lower_case": {
+          "ifr": 8.89,
+          "wer": 87.15
+        },
+        "prefix": {
+          "ifr": 7.1,
+          "wer": 93.03
+        },
+        "suffix": {
+          "ifr": 0.95,
+          "wer": 99.85
+        },
+        "wrap": {
+          "ifr": 0.95,
+          "wer": 99.84
+        },
+        "json": {
+          "ifr": 11.15,
+          "wer": 88.35
+        },
+        "all": {
+          "ifr": 18.61,
+          "wer": 81.34
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 100.0,
+          "acc": 93.13
+        },
+        "upper_case": {
+          "ifr": 100.0,
+          "acc": 90.19
+        },
+        "lower_case": {
+          "ifr": 100.0,
+          "acc": 93.28
+        },
+        "prefix": {
+          "ifr": 32.48,
+          "acc": 30.34
+        },
+        "suffix": {
+          "ifr": 37.56,
+          "acc": 34.85
+        },
+        "wrap": {
+          "ifr": 16.95,
+          "acc": 16.07
+        },
+        "json": {
+          "ifr": 80.38,
+          "acc": 76.03
+        },
+        "all": {
+          "ifr": 66.77,
+          "acc": 61.98
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 94.2,
+          "acc": 75.58
+        },
+        "upper_case": {
+          "ifr": 99.92,
+          "acc": 79.85
+        },
+        "lower_case": {
+          "ifr": 98.95,
+          "acc": 76.23
+        },
+        "prefix": {
+          "ifr": 5.24,
+          "acc": 3.55
+        },
+        "suffix": {
+          "ifr": 32.96,
+          "acc": 25.95
+        },
+        "wrap": {
+          "ifr": 2.01,
+          "acc": 0.97
+        },
+        "json": {
+          "ifr": 46.58,
+          "acc": 35.94
+        },
+        "all": {
+          "ifr": 54.26,
+          "acc": 42.58
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 100.0,
+          "METEOR": 0.1819,
+          "CIDEr-D": 0.4432,
+          "ROUGE-L": 0.4064
+        },
+        "upper_case": {
+          "ifr": 13.49,
+          "METEOR": 0.0136,
+          "CIDEr-D": 0.0599,
+          "ROUGE-L": 0.0458
+        },
+        "lower_case": {
+          "ifr": 95.12,
+          "METEOR": 0.1645,
+          "CIDEr-D": 0.3719,
+          "ROUGE-L": 0.3763
+        },
+        "prefix": {
+          "ifr": 4.67,
+          "METEOR": 0.0071,
+          "CIDEr-D": 0.0326,
+          "ROUGE-L": 0.0179
+        },
+        "suffix": {
+          "ifr": 0.31,
+          "METEOR": 0.0003,
+          "CIDEr-D": 0.0002,
+          "ROUGE-L": 0.0006
+        },
+        "wrap": {
+          "ifr": 4.46,
+          "METEOR": 0.0065,
+          "CIDEr-D": 0.022,
+          "ROUGE-L": 0.0155
+        },
+        "json": {
+          "ifr": 66.29,
+          "METEOR": 0.1344,
+          "CIDEr-D": 0.3932,
+          "ROUGE-L": 0.2978
+        },
+        "all": {
+          "ifr": 40.62,
+          "METEOR": 0.0689,
+          "CIDEr-D": 0.1867,
+          "ROUGE-L": 0.1657
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 51.09,
+              "wer": 55.22,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 71.73,
+              "acc": 53.98,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 69.5,
+              "acc": 67.97,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 62.88,
+              "wer": 47.2,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 62.88,
+              "acc": 46.41,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 62.88,
+              "acc": 61.38,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 52.6,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 74.39,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "phi4-multimodal-instruct": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 28.78,
+          "wer": 70.31
+        },
+        "case": {
+          "ifr": 37.02,
+          "wer": 62.85
+        },
+        "robust": {
+          "ifr": 22.86,
+          "wer": 76.81
+        },
+        "semantic_equal_simple": {
+          "ifr": 12.06,
+          "wer": 88.14
+        },
+        "semantic_equal_neutral": {
+          "ifr": 37.9,
+          "wer": 60.8
+        },
+        "semantic_equal_complex": {
+          "ifr": 33.02,
+          "wer": 67.12
+        },
+        "alter_symbol": {
+          "ifr": 41.72,
+          "wer": 57.59
+        },
+        "all": {
+          "ifr": 30.36,
+          "wer": 69.25
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 92.44,
+          "acc": 56.33
+        },
+        "default": {
+          "ifr": 91.98,
+          "acc": 58.78
+        },
+        "case": {
+          "ifr": 96.95,
+          "acc": 58.05
+        },
+        "robust": {
+          "ifr": 81.64,
+          "acc": 46.77
+        },
+        "semantic_equal_simple": {
+          "ifr": 97.63,
+          "acc": 59.47
+        },
+        "semantic_equal_neutral": {
+          "ifr": 92.94,
+          "acc": 59.27
+        },
+        "semantic_equal_complex": {
+          "ifr": 98.89,
+          "acc": 60.31
+        },
+        "alter_symbol": {
+          "ifr": 93.36,
+          "acc": 59.47
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 66.95,
+          "acc": 30.92
+        },
+        "default": {
+          "ifr": 74.21,
+          "acc": 34.33
+        },
+        "case": {
+          "ifr": 78.65,
+          "acc": 37.47
+        },
+        "robust": {
+          "ifr": 42.26,
+          "acc": 19.34
+        },
+        "semantic_equal_simple": {
+          "ifr": 63.9,
+          "acc": 29.49
+        },
+        "semantic_equal_neutral": {
+          "ifr": 79.69,
+          "acc": 36.5
+        },
+        "semantic_equal_complex": {
+          "ifr": 58.9,
+          "acc": 26.43
+        },
+        "alter_symbol": {
+          "ifr": 84.05,
+          "acc": 37.87
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 13.21,
+          "bleu": 0.05,
+          "p1": 66.39,
+          "p2": 47.51,
+          "p3": 36.28,
+          "p4": 28.41,
+          "bp": 0.0011,
+          "len_ratio": 0.1285
+        },
+        "default": {
+          "ifr": 11.45,
+          "bleu": 0.02,
+          "p1": 65.67,
+          "p2": 46.56,
+          "p3": 35.22,
+          "p4": 27.31,
+          "bp": 0.0004,
+          "len_ratio": 0.1124
+        },
+        "grammar_robust": {
+          "ifr": 3.92,
+          "bleu": 0.0,
+          "p1": 51.23,
+          "p2": 36.1,
+          "p3": 27.49,
+          "p4": 21.34,
+          "bp": 0.0,
+          "len_ratio": 0.0351
+        },
+        "lower_case": {
+          "ifr": 11.66,
+          "bleu": 0.02,
+          "p1": 60.31,
+          "p2": 42.11,
+          "p3": 31.59,
+          "p4": 24.28,
+          "bp": 0.0007,
+          "len_ratio": 0.12
+        },
+        "semantic_equal_complex": {
+          "ifr": 16.39,
+          "bleu": 0.26,
+          "p1": 64.25,
+          "p2": 45.51,
+          "p3": 34.34,
+          "p4": 26.69,
+          "bp": 0.0065,
+          "len_ratio": 0.1655
+        },
+        "semantic_equal_neutral": {
+          "ifr": 12.95,
+          "bleu": 0.03,
+          "p1": 67.93,
+          "p2": 48.77,
+          "p3": 37.32,
+          "p4": 29.2,
+          "bp": 0.0008,
+          "len_ratio": 0.1225
+        },
+        "semantic_equal_simple": {
+          "ifr": 3.22,
+          "bleu": 0.0,
+          "p1": 8.74,
+          "p2": 5.39,
+          "p3": 4.15,
+          "p4": 3.63,
+          "bp": 0.0,
+          "len_ratio": 0.0189
+        },
+        "syntax_robust": {
+          "ifr": 23.05,
+          "bleu": 0.12,
+          "p1": 35.69,
+          "p2": 25.21,
+          "p3": 19.13,
+          "p4": 14.83,
+          "bp": 0.0054,
+          "len_ratio": 0.1606
+        },
+        "upper_case": {
+          "ifr": 24.87,
+          "bleu": 1.7,
+          "p1": 57.56,
+          "p2": 40.38,
+          "p3": 30.39,
+          "p4": 23.34,
+          "bp": 0.0474,
+          "len_ratio": 0.2469
+        },
+        "all": {
+          "ifr": 13.41,
+          "bleu": 0.03,
+          "p1": 57.65,
+          "p2": 40.85,
+          "p3": 30.96,
+          "p4": 24.05,
+          "bp": 0.0008,
+          "len_ratio": 0.1234
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 59.96,
+          "METEOR": 0.0869,
+          "CIDEr-D": 0.169,
+          "ROUGE-L": 0.2067
+        },
+        "default": {
+          "ifr": 43.15,
+          "METEOR": 0.0623,
+          "CIDEr-D": 0.1064,
+          "ROUGE-L": 0.1442
+        },
+        "grammar_robust": {
+          "ifr": 35.79,
+          "METEOR": 0.0529,
+          "CIDEr-D": 0.096,
+          "ROUGE-L": 0.1241
+        },
+        "lower_case": {
+          "ifr": 42.53,
+          "METEOR": 0.0636,
+          "CIDEr-D": 0.106,
+          "ROUGE-L": 0.1425
+        },
+        "semantic_equal_complex": {
+          "ifr": 39.42,
+          "METEOR": 0.0659,
+          "CIDEr-D": 0.1016,
+          "ROUGE-L": 0.1342
+        },
+        "semantic_equal_neutral": {
+          "ifr": 59.96,
+          "METEOR": 0.0897,
+          "CIDEr-D": 0.162,
+          "ROUGE-L": 0.2083
+        },
+        "semantic_equal_simple": {
+          "ifr": 10.58,
+          "METEOR": 0.0157,
+          "CIDEr-D": 0.0317,
+          "ROUGE-L": 0.0375
+        },
+        "syntax_robust": {
+          "ifr": 28.53,
+          "METEOR": 0.0429,
+          "CIDEr-D": 0.0803,
+          "ROUGE-L": 0.0991
+        },
+        "upper_case": {
+          "ifr": 32.68,
+          "METEOR": 0.0491,
+          "CIDEr-D": 0.0816,
+          "ROUGE-L": 0.1122
+        },
+        "all": {
+          "ifr": 39.18,
+          "METEOR": 0.0591,
+          "CIDEr-D": 0.1013,
+          "ROUGE-L": 0.1343
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 99.81,
+          "wer": 1.92
+        },
+        "upper_case": {
+          "ifr": 1.56,
+          "wer": 98.56
+        },
+        "lower_case": {
+          "ifr": 99.92,
+          "wer": 1.67
+        },
+        "prefix": {
+          "ifr": 1.87,
+          "wer": 98.08
+        },
+        "suffix": {
+          "ifr": 3.4,
+          "wer": 97.1
+        },
+        "wrap": {
+          "ifr": 0.73,
+          "wer": 99.29
+        },
+        "json": {
+          "ifr": 85.61,
+          "wer": 44.49
+        },
+        "all": {
+          "ifr": 41.84,
+          "wer": 63.02
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 77.71,
+          "acc": 50.53
+        },
+        "upper_case": {
+          "ifr": 97.86,
+          "acc": 59.89
+        },
+        "lower_case": {
+          "ifr": 90.5,
+          "acc": 55.0
+        },
+        "prefix": {
+          "ifr": 63.36,
+          "acc": 36.53
+        },
+        "suffix": {
+          "ifr": 31.41,
+          "acc": 10.8
+        },
+        "wrap": {
+          "ifr": 21.22,
+          "acc": 12.56
+        },
+        "json": {
+          "ifr": 99.69,
+          "acc": 65.42
+        },
+        "all": {
+          "ifr": 68.82,
+          "acc": 41.53
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 57.53,
+          "acc": 29.09
+        },
+        "upper_case": {
+          "ifr": 94.68,
+          "acc": 39.16
+        },
+        "lower_case": {
+          "ifr": 95.17,
+          "acc": 44.56
+        },
+        "prefix": {
+          "ifr": 59.79,
+          "acc": 26.19
+        },
+        "suffix": {
+          "ifr": 28.53,
+          "acc": 8.22
+        },
+        "wrap": {
+          "ifr": 24.09,
+          "acc": 10.23
+        },
+        "json": {
+          "ifr": 98.47,
+          "acc": 50.04
+        },
+        "all": {
+          "ifr": 65.47,
+          "acc": 29.64
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 94.0,
+          "bleu": 43.71
+        },
+        "prefix": {
+          "ifr": 0.17,
+          "bleu": 0.0
+        },
+        "suffix": {
+          "ifr": 4.82,
+          "bleu": 0.0
+        },
+        "wrap": {
+          "ifr": 0.0,
+          "bleu": 0.0
+        },
+        "json": {
+          "ifr": 3.53,
+          "bleu": 0.0
+        },
+        "all": {
+          "ifr": 20.5,
+          "bleu": 0.99
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 0.41,
+          "METEOR": 0.0002,
+          "CIDEr-D": 0.0004,
+          "ROUGE-L": 0.0007
+        },
+        "upper_case": {
+          "ifr": 3.01,
+          "METEOR": 0.0022,
+          "CIDEr-D": 0.0016,
+          "ROUGE-L": 0.0044
+        },
+        "lower_case": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "prefix": {
+          "ifr": 23.96,
+          "METEOR": 0.0342,
+          "CIDEr-D": 0.0609,
+          "ROUGE-L": 0.0765
+        },
+        "suffix": {
+          "ifr": 9.23,
+          "METEOR": 0.0094,
+          "CIDEr-D": 0.0163,
+          "ROUGE-L": 0.0254
+        },
+        "wrap": {
+          "ifr": 16.49,
+          "METEOR": 0.0283,
+          "CIDEr-D": 0.0251,
+          "ROUGE-L": 0.0458
+        },
+        "json": {
+          "ifr": 95.12,
+          "METEOR": 0.155,
+          "CIDEr-D": 0.2883,
+          "ROUGE-L": 0.34
+        },
+        "all": {
+          "ifr": 21.18,
+          "METEOR": 0.0333,
+          "CIDEr-D": 0.0545,
+          "ROUGE-L": 0.0704
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 50.65,
+              "wer": 56.36,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 54.12,
+              "acc": 26.26,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 56.1,
+              "acc": 33.41,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 50.74,
+              "wer": 55.7,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 50.74,
+              "acc": 24.67,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 50.74,
+              "acc": 29.33,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 13.31,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 91.06,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "gpt-4o-audio-preview": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 93.93,
+          "wer": 13.03
+        },
+        "case": {
+          "ifr": 94.45,
+          "wer": 14.75
+        },
+        "robust": {
+          "ifr": 90.78,
+          "wer": 16.51
+        },
+        "semantic_equal_simple": {
+          "ifr": 96.18,
+          "wer": 7.44
+        },
+        "semantic_equal_neutral": {
+          "ifr": 94.69,
+          "wer": 12.54
+        },
+        "semantic_equal_complex": {
+          "ifr": 53.24,
+          "wer": 43.66
+        },
+        "alter_symbol": {
+          "ifr": 93.55,
+          "wer": 15.0
+        },
+        "all": {
+          "ifr": 89.12,
+          "wer": 17.13
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 75.51,
+          "acc": 45.25
+        },
+        "default": {
+          "ifr": 81.22,
+          "acc": 48.67
+        },
+        "case": {
+          "ifr": 82.07,
+          "acc": 49.44
+        },
+        "robust": {
+          "ifr": 61.24,
+          "acc": 37.23
+        },
+        "semantic_equal_simple": {
+          "ifr": 83.48,
+          "acc": 47.46
+        },
+        "semantic_equal_neutral": {
+          "ifr": 83.32,
+          "acc": 49.32
+        },
+        "semantic_equal_complex": {
+          "ifr": 62.45,
+          "acc": 38.03
+        },
+        "alter_symbol": {
+          "ifr": 82.51,
+          "acc": 50.44
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 91.73,
+          "bleu": 37.88,
+          "p1": 64.96,
+          "p2": 45.59,
+          "p3": 34.17,
+          "p4": 26.31,
+          "bp": 0.9379,
+          "len_ratio": 0.9397
+        },
+        "default": {
+          "ifr": 92.22,
+          "bleu": 37.98,
+          "p1": 65.02,
+          "p2": 45.55,
+          "p3": 34.1,
+          "p4": 26.23,
+          "bp": 0.9414,
+          "len_ratio": 0.943
+        },
+        "grammar_robust": {
+          "ifr": 86.5,
+          "bleu": 32.66,
+          "p1": 60.92,
+          "p2": 42.48,
+          "p3": 31.65,
+          "p4": 24.24,
+          "bp": 0.8701,
+          "len_ratio": 0.8778
+        },
+        "lower_case": {
+          "ifr": 91.18,
+          "bleu": 37.78,
+          "p1": 65.18,
+          "p2": 45.75,
+          "p3": 34.34,
+          "p4": 26.43,
+          "bp": 0.9314,
+          "len_ratio": 0.9337
+        },
+        "semantic_equal_complex": {
+          "ifr": 82.5,
+          "bleu": 34.35,
+          "p1": 64.09,
+          "p2": 44.49,
+          "p3": 33.11,
+          "p4": 25.31,
+          "bp": 0.8736,
+          "len_ratio": 0.8809
+        },
+        "semantic_equal_neutral": {
+          "ifr": 92.15,
+          "bleu": 37.81,
+          "p1": 64.8,
+          "p2": 45.33,
+          "p3": 33.9,
+          "p4": 26.07,
+          "bp": 0.9419,
+          "len_ratio": 0.9436
+        },
+        "semantic_equal_simple": {
+          "ifr": 89.92,
+          "bleu": 36.7,
+          "p1": 64.18,
+          "p2": 45.15,
+          "p3": 33.93,
+          "p4": 26.16,
+          "bp": 0.9165,
+          "len_ratio": 0.9198
+        },
+        "syntax_robust": {
+          "ifr": 84.17,
+          "bleu": 34.16,
+          "p1": 63.99,
+          "p2": 44.74,
+          "p3": 33.5,
+          "p4": 25.77,
+          "bp": 0.8615,
+          "len_ratio": 0.8702
+        },
+        "upper_case": {
+          "ifr": 89.63,
+          "bleu": 37.12,
+          "p1": 64.7,
+          "p2": 45.46,
+          "p3": 34.11,
+          "p4": 26.26,
+          "bp": 0.9212,
+          "len_ratio": 0.9242
+        },
+        "all": {
+          "ifr": 88.89,
+          "bleu": 36.29,
+          "p1": 64.23,
+          "p2": 44.97,
+          "p3": 33.67,
+          "p4": 25.88,
+          "bp": 0.911,
+          "len_ratio": 0.9148
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 97.1,
+          "METEOR": 0.114,
+          "CIDEr-D": 0.1661,
+          "ROUGE-L": 0.2338
+        },
+        "default": {
+          "ifr": 98.76,
+          "METEOR": 0.1129,
+          "CIDEr-D": 0.1567,
+          "ROUGE-L": 0.2276
+        },
+        "grammar_robust": {
+          "ifr": 95.95,
+          "METEOR": 0.1119,
+          "CIDEr-D": 0.1594,
+          "ROUGE-L": 0.2273
+        },
+        "lower_case": {
+          "ifr": 99.07,
+          "METEOR": 0.1184,
+          "CIDEr-D": 0.1592,
+          "ROUGE-L": 0.238
+        },
+        "semantic_equal_complex": {
+          "ifr": 95.64,
+          "METEOR": 0.095,
+          "CIDEr-D": 0.0105,
+          "ROUGE-L": 0.1332
+        },
+        "semantic_equal_neutral": {
+          "ifr": 98.24,
+          "METEOR": 0.1196,
+          "CIDEr-D": 0.1655,
+          "ROUGE-L": 0.2358
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.69,
+          "METEOR": 0.1111,
+          "CIDEr-D": 0.2046,
+          "ROUGE-L": 0.251
+        },
+        "syntax_robust": {
+          "ifr": 95.75,
+          "METEOR": 0.1121,
+          "CIDEr-D": 0.1646,
+          "ROUGE-L": 0.2239
+        },
+        "upper_case": {
+          "ifr": 98.76,
+          "METEOR": 0.1184,
+          "CIDEr-D": 0.1582,
+          "ROUGE-L": 0.2367
+        },
+        "all": {
+          "ifr": 97.66,
+          "METEOR": 0.1113,
+          "CIDEr-D": 0.1405,
+          "ROUGE-L": 0.223
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 96.72,
+          "wer": 5.18
+        },
+        "upper_case": {
+          "ifr": 99.12,
+          "wer": 5.3
+        },
+        "lower_case": {
+          "ifr": 98.63,
+          "wer": 4.55
+        },
+        "prefix": {
+          "ifr": 96.49,
+          "wer": 7.54
+        },
+        "suffix": {
+          "ifr": 92.79,
+          "wer": 11.92
+        },
+        "wrap": {
+          "ifr": 85.23,
+          "wer": 18.81
+        },
+        "json": {
+          "ifr": 96.56,
+          "wer": 4.89
+        },
+        "all": {
+          "ifr": 95.08,
+          "wer": 8.31
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 52.22,
+          "acc": 32.07
+        },
+        "upper_case": {
+          "ifr": 97.66,
+          "acc": 58.5
+        },
+        "lower_case": {
+          "ifr": 96.94,
+          "acc": 57.53
+        },
+        "prefix": {
+          "ifr": 67.45,
+          "acc": 38.76
+        },
+        "suffix": {
+          "ifr": 71.56,
+          "acc": 41.5
+        },
+        "wrap": {
+          "ifr": 91.54,
+          "acc": 51.97
+        },
+        "json": {
+          "ifr": 90.09,
+          "acc": 52.94
+        },
+        "all": {
+          "ifr": 81.06,
+          "acc": 47.61
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 96.73,
+          "bleu": 40.97
+        },
+        "prefix": {
+          "ifr": 91.48,
+          "bleu": 38.35
+        },
+        "suffix": {
+          "ifr": 94.08,
+          "bleu": 39.17
+        },
+        "wrap": {
+          "ifr": 91.05,
+          "bleu": 38.5
+        },
+        "json": {
+          "ifr": 93.91,
+          "bleu": 39.69
+        },
+        "all": {
+          "ifr": 93.45,
+          "bleu": 39.34
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 56.12,
+          "METEOR": 0.0586,
+          "CIDEr-D": 0.0884,
+          "ROUGE-L": 0.1274
+        },
+        "upper_case": {
+          "ifr": 98.03,
+          "METEOR": 0.1033,
+          "CIDEr-D": 0.1628,
+          "ROUGE-L": 0.2189
+        },
+        "lower_case": {
+          "ifr": 94.61,
+          "METEOR": 0.1013,
+          "CIDEr-D": 0.1741,
+          "ROUGE-L": 0.2225
+        },
+        "prefix": {
+          "ifr": 96.06,
+          "METEOR": 0.1076,
+          "CIDEr-D": 0.1123,
+          "ROUGE-L": 0.1977
+        },
+        "suffix": {
+          "ifr": 92.74,
+          "METEOR": 0.1027,
+          "CIDEr-D": 0.1018,
+          "ROUGE-L": 0.192
+        },
+        "wrap": {
+          "ifr": 85.58,
+          "METEOR": 0.0923,
+          "CIDEr-D": 0.0943,
+          "ROUGE-L": 0.1685
+        },
+        "json": {
+          "ifr": 83.92,
+          "METEOR": 0.0993,
+          "CIDEr-D": 0.1183,
+          "ROUGE-L": 0.1878
+        },
+        "all": {
+          "ifr": 86.72,
+          "METEOR": 0.0956,
+          "CIDEr-D": 0.1147,
+          "ROUGE-L": 0.1878
+        }
+      }
+    },
+    "n": {}
+  },
+  "gemini-2.5-pro": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 98.13,
+          "wer": 28.83
+        },
+        "case": {
+          "ifr": 98.03,
+          "wer": 27.7
+        },
+        "robust": {
+          "ifr": 95.86,
+          "wer": 20.91
+        },
+        "semantic_equal_simple": {
+          "ifr": 93.51,
+          "wer": 16.32
+        },
+        "semantic_equal_neutral": {
+          "ifr": 97.29,
+          "wer": 25.73
+        },
+        "semantic_equal_complex": {
+          "ifr": 99.96,
+          "wer": 2.25
+        },
+        "alter_symbol": {
+          "ifr": 95.73,
+          "wer": 25.51
+        },
+        "all": {
+          "ifr": 96.93,
+          "wer": 21.76
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 99.72,
+          "acc": 81.99
+        },
+        "default": {
+          "ifr": 99.81,
+          "acc": 82.06
+        },
+        "case": {
+          "ifr": 99.9,
+          "acc": 82.65
+        },
+        "robust": {
+          "ifr": 99.26,
+          "acc": 81.73
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.89,
+          "acc": 82.48
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.89,
+          "acc": 81.95
+        },
+        "semantic_equal_complex": {
+          "ifr": 99.62,
+          "acc": 80.23
+        },
+        "alter_symbol": {
+          "ifr": 99.92,
+          "acc": 82.44
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 90.83,
+          "acc": 60.91
+        },
+        "default": {
+          "ifr": 95.41,
+          "acc": 63.09
+        },
+        "case": {
+          "ifr": 96.62,
+          "acc": 64.75
+        },
+        "robust": {
+          "ifr": 91.7,
+          "acc": 61.48
+        },
+        "semantic_equal_simple": {
+          "ifr": 95.49,
+          "acc": 64.79
+        },
+        "semantic_equal_neutral": {
+          "ifr": 98.39,
+          "acc": 66.08
+        },
+        "semantic_equal_complex": {
+          "ifr": 52.94,
+          "acc": 35.05
+        },
+        "alter_symbol": {
+          "ifr": 98.63,
+          "acc": 66.72
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 93.67,
+          "METEOR": 0.1294,
+          "CIDEr-D": 0.2116,
+          "ROUGE-L": 0.2613
+        },
+        "default": {
+          "ifr": 95.44,
+          "METEOR": 0.1311,
+          "CIDEr-D": 0.2236,
+          "ROUGE-L": 0.2659
+        },
+        "grammar_robust": {
+          "ifr": 95.12,
+          "METEOR": 0.1271,
+          "CIDEr-D": 0.2174,
+          "ROUGE-L": 0.2623
+        },
+        "lower_case": {
+          "ifr": 96.27,
+          "METEOR": 0.1325,
+          "CIDEr-D": 0.246,
+          "ROUGE-L": 0.2781
+        },
+        "semantic_equal_complex": {
+          "ifr": 98.03,
+          "METEOR": 0.1065,
+          "CIDEr-D": 0.0079,
+          "ROUGE-L": 0.1444
+        },
+        "semantic_equal_neutral": {
+          "ifr": 93.88,
+          "METEOR": 0.1264,
+          "CIDEr-D": 0.2015,
+          "ROUGE-L": 0.2512
+        },
+        "semantic_equal_simple": {
+          "ifr": 94.29,
+          "METEOR": 0.11,
+          "CIDEr-D": 0.2518,
+          "ROUGE-L": 0.249
+        },
+        "syntax_robust": {
+          "ifr": 90.98,
+          "METEOR": 0.1243,
+          "CIDEr-D": 0.2113,
+          "ROUGE-L": 0.2542
+        },
+        "upper_case": {
+          "ifr": 85.06,
+          "METEOR": 0.1189,
+          "CIDEr-D": 0.2015,
+          "ROUGE-L": 0.2421
+        },
+        "all": {
+          "ifr": 93.64,
+          "METEOR": 0.1207,
+          "CIDEr-D": 0.1867,
+          "ROUGE-L": 0.2454
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 90.5,
+          "bleu": 39.26,
+          "p1": 63.5,
+          "p2": 44.85,
+          "p3": 33.81,
+          "p4": 26.06,
+          "bp": 0.9864,
+          "len_ratio": 0.9865
+        },
+        "default": {
+          "ifr": 90.22,
+          "bleu": 39.22,
+          "p1": 63.64,
+          "p2": 45.06,
+          "p3": 33.98,
+          "p4": 26.19,
+          "bp": 0.9812,
+          "len_ratio": 0.9814
+        },
+        "grammar_robust": {
+          "ifr": 83.69,
+          "bleu": 31.79,
+          "p1": 51.83,
+          "p2": 36.06,
+          "p3": 26.78,
+          "p4": 20.4,
+          "bp": 1.0,
+          "len_ratio": 1.0545
+        },
+        "lower_case": {
+          "ifr": 90.95,
+          "bleu": 39.42,
+          "p1": 63.19,
+          "p2": 44.56,
+          "p3": 33.5,
+          "p4": 25.84,
+          "bp": 0.9976,
+          "len_ratio": 0.9976
+        },
+        "semantic_equal_complex": {
+          "ifr": 97.35,
+          "bleu": 21.42,
+          "p1": 37.07,
+          "p2": 24.73,
+          "p3": 17.7,
+          "p4": 12.98,
+          "bp": 1.0,
+          "len_ratio": 1.8085
+        },
+        "semantic_equal_neutral": {
+          "ifr": 90.36,
+          "bleu": 39.48,
+          "p1": 63.87,
+          "p2": 45.21,
+          "p3": 34.07,
+          "p4": 26.27,
+          "bp": 0.9847,
+          "len_ratio": 0.9848
+        },
+        "semantic_equal_simple": {
+          "ifr": 89.36,
+          "bleu": 35.69,
+          "p1": 58.12,
+          "p2": 40.91,
+          "p3": 30.79,
+          "p4": 23.74,
+          "bp": 0.9829,
+          "len_ratio": 0.9831
+        },
+        "syntax_robust": {
+          "ifr": 89.72,
+          "bleu": 38.56,
+          "p1": 61.23,
+          "p2": 43.45,
+          "p3": 32.8,
+          "p4": 25.33,
+          "bp": 1.0,
+          "len_ratio": 1.0164
+        },
+        "upper_case": {
+          "ifr": 90.18,
+          "bleu": 38.88,
+          "p1": 62.4,
+          "p2": 43.86,
+          "p3": 32.94,
+          "p4": 25.34,
+          "bp": 1.0,
+          "len_ratio": 1.0043
+        },
+        "all": {
+          "ifr": 90.26,
+          "bleu": 34.89,
+          "p1": 56.51,
+          "p2": 39.51,
+          "p3": 29.48,
+          "p4": 22.51,
+          "bp": 1.0,
+          "len_ratio": 1.0908
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 99.31,
+          "wer": 2.69
+        },
+        "upper_case": {
+          "ifr": 99.39,
+          "wer": 2.55
+        },
+        "lower_case": {
+          "ifr": 99.39,
+          "wer": 2.53
+        },
+        "prefix": {
+          "ifr": 99.05,
+          "wer": 3.44
+        },
+        "suffix": {
+          "ifr": 98.02,
+          "wer": 4.59
+        },
+        "wrap": {
+          "ifr": 98.89,
+          "wer": 3.49
+        },
+        "json": {
+          "ifr": 4.12,
+          "wer": 95.87
+        },
+        "all": {
+          "ifr": 85.45,
+          "wer": 16.45
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 97.52,
+          "acc": 81.03
+        },
+        "upper_case": {
+          "ifr": 99.31,
+          "acc": 83.09
+        },
+        "lower_case": {
+          "ifr": 99.62,
+          "acc": 84.81
+        },
+        "prefix": {
+          "ifr": 97.25,
+          "acc": 80.08
+        },
+        "suffix": {
+          "ifr": 93.21,
+          "acc": 78.51
+        },
+        "wrap": {
+          "ifr": 98.32,
+          "acc": 80.53
+        },
+        "json": {
+          "ifr": 0.11,
+          "acc": 0.08
+        },
+        "all": {
+          "ifr": 83.62,
+          "acc": 69.73
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 92.67,
+          "acc": 60.92
+        },
+        "upper_case": {
+          "ifr": 96.94,
+          "acc": 62.85
+        },
+        "lower_case": {
+          "ifr": 97.74,
+          "acc": 64.3
+        },
+        "prefix": {
+          "ifr": 93.88,
+          "acc": 61.08
+        },
+        "suffix": {
+          "ifr": 91.54,
+          "acc": 59.95
+        },
+        "wrap": {
+          "ifr": 97.42,
+          "acc": 64.95
+        },
+        "json": {
+          "ifr": 0.24,
+          "acc": 0.16
+        },
+        "all": {
+          "ifr": 81.49,
+          "acc": 53.46
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 95.71,
+          "bleu": 41.49
+        },
+        "prefix": {
+          "ifr": 96.0,
+          "bleu": 42.0
+        },
+        "suffix": {
+          "ifr": 96.57,
+          "bleu": 41.41
+        },
+        "wrap": {
+          "ifr": 96.54,
+          "bleu": 41.61
+        },
+        "json": {
+          "ifr": 3.32,
+          "bleu": 0.0
+        },
+        "all": {
+          "ifr": 77.63,
+          "bleu": 32.77
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 69.29,
+          "METEOR": 0.0978,
+          "CIDEr-D": 0.1715,
+          "ROUGE-L": 0.1986
+        },
+        "upper_case": {
+          "ifr": 92.43,
+          "METEOR": 0.1249,
+          "CIDEr-D": 0.2664,
+          "ROUGE-L": 0.2796
+        },
+        "lower_case": {
+          "ifr": 93.26,
+          "METEOR": 0.1295,
+          "CIDEr-D": 0.2709,
+          "ROUGE-L": 0.2873
+        },
+        "prefix": {
+          "ifr": 97.61,
+          "METEOR": 0.1426,
+          "CIDEr-D": 0.1925,
+          "ROUGE-L": 0.2725
+        },
+        "suffix": {
+          "ifr": 92.63,
+          "METEOR": 0.1429,
+          "CIDEr-D": 0.2131,
+          "ROUGE-L": 0.274
+        },
+        "wrap": {
+          "ifr": 98.34,
+          "METEOR": 0.1453,
+          "CIDEr-D": 0.2014,
+          "ROUGE-L": 0.2788
+        },
+        "json": {
+          "ifr": 0.83,
+          "METEOR": 0.0013,
+          "CIDEr-D": 0.0005,
+          "ROUGE-L": 0.0019
+        },
+        "all": {
+          "ifr": 77.77,
+          "METEOR": 0.1138,
+          "CIDEr-D": 0.1789,
+          "ROUGE-L": 0.2275
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 45.78,
+              "wer": 59.65,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 47.63,
+              "acc": 31.78,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 48.28,
+              "acc": 47.06,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 46.12,
+              "wer": 59.23,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 46.12,
+              "acc": 30.66,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 46.12,
+              "acc": 44.81,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 91.13,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 2.22,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "qwen2_audio": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 93.4,
+          "wer": 10.4
+        },
+        "case": {
+          "ifr": 93.99,
+          "wer": 9.07
+        },
+        "robust": {
+          "ifr": 84.52,
+          "wer": 19.39
+        },
+        "semantic_equal_simple": {
+          "ifr": 93.85,
+          "wer": 9.77
+        },
+        "semantic_equal_neutral": {
+          "ifr": 92.21,
+          "wer": 11.87
+        },
+        "semantic_equal_complex": {
+          "ifr": 95.57,
+          "wer": 8.21
+        },
+        "alter_symbol": {
+          "ifr": 90.23,
+          "wer": 13.73
+        },
+        "all": {
+          "ifr": 91.37,
+          "wer": 12.32
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 99.84,
+          "acc": 88.0
+        },
+        "default": {
+          "ifr": 100.0,
+          "acc": 89.24
+        },
+        "case": {
+          "ifr": 100.0,
+          "acc": 88.49
+        },
+        "robust": {
+          "ifr": 99.29,
+          "acc": 86.83
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "acc": 86.11
+        },
+        "semantic_equal_neutral": {
+          "ifr": 100.0,
+          "acc": 88.78
+        },
+        "semantic_equal_complex": {
+          "ifr": 100.0,
+          "acc": 87.67
+        },
+        "alter_symbol": {
+          "ifr": 100.0,
+          "acc": 89.54
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 99.1,
+          "acc": 63.61
+        },
+        "default": {
+          "ifr": 99.76,
+          "acc": 64.87
+        },
+        "case": {
+          "ifr": 99.8,
+          "acc": 63.34
+        },
+        "robust": {
+          "ifr": 99.07,
+          "acc": 64.63
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "acc": 65.43
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.92,
+          "acc": 63.74
+        },
+        "semantic_equal_complex": {
+          "ifr": 94.6,
+          "acc": 56.89
+        },
+        "alter_symbol": {
+          "ifr": 99.84,
+          "acc": 65.67
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 57.39,
+          "bleu": 16.7,
+          "p1": 62.97,
+          "p2": 42.9,
+          "p3": 31.44,
+          "p4": 23.71,
+          "bp": 0.4433,
+          "len_ratio": 0.5514
+        },
+        "default": {
+          "ifr": 66.42,
+          "bleu": 22.16,
+          "p1": 63.93,
+          "p2": 43.62,
+          "p3": 31.98,
+          "p4": 24.06,
+          "bp": 0.579,
+          "len_ratio": 0.6467
+        },
+        "grammar_robust": {
+          "ifr": 56.6,
+          "bleu": 13.91,
+          "p1": 56.47,
+          "p2": 38.59,
+          "p3": 28.41,
+          "p4": 21.59,
+          "bp": 0.409,
+          "len_ratio": 0.528
+        },
+        "lower_case": {
+          "ifr": 66.32,
+          "bleu": 22.54,
+          "p1": 63.89,
+          "p2": 43.65,
+          "p3": 32.03,
+          "p4": 24.14,
+          "bp": 0.5881,
+          "len_ratio": 0.6532
+        },
+        "semantic_equal_complex": {
+          "ifr": 58.88,
+          "bleu": 18.82,
+          "p1": 64.1,
+          "p2": 43.46,
+          "p3": 31.77,
+          "p4": 23.88,
+          "bp": 0.4937,
+          "len_ratio": 0.5862
+        },
+        "semantic_equal_neutral": {
+          "ifr": 63.17,
+          "bleu": 20.25,
+          "p1": 63.85,
+          "p2": 43.62,
+          "p3": 32.07,
+          "p4": 24.23,
+          "bp": 0.528,
+          "len_ratio": 0.6102
+        },
+        "semantic_equal_simple": {
+          "ifr": 63.05,
+          "bleu": 19.5,
+          "p1": 62.9,
+          "p2": 42.92,
+          "p3": 31.56,
+          "p4": 23.85,
+          "bp": 0.5164,
+          "len_ratio": 0.6021
+        },
+        "syntax_robust": {
+          "ifr": 58.99,
+          "bleu": 15.53,
+          "p1": 58.12,
+          "p2": 39.67,
+          "p3": 29.17,
+          "p4": 22.15,
+          "bp": 0.4446,
+          "len_ratio": 0.5523
+        },
+        "upper_case": {
+          "ifr": 69.95,
+          "bleu": 24.22,
+          "p1": 63.47,
+          "p2": 43.39,
+          "p3": 31.86,
+          "p4": 24.05,
+          "bp": 0.6354,
+          "len_ratio": 0.688
+        },
+        "all": {
+          "ifr": 62.31,
+          "bleu": 19.3,
+          "p1": 62.34,
+          "p2": 42.54,
+          "p3": 31.23,
+          "p4": 23.58,
+          "bp": 0.5163,
+          "len_ratio": 0.602
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 55.29,
+          "METEOR": 0.1017,
+          "CIDEr-D": 0.2472,
+          "ROUGE-L": 0.2074
+        },
+        "default": {
+          "ifr": 64.11,
+          "METEOR": 0.1179,
+          "CIDEr-D": 0.2785,
+          "ROUGE-L": 0.2358
+        },
+        "grammar_robust": {
+          "ifr": 52.18,
+          "METEOR": 0.0942,
+          "CIDEr-D": 0.2253,
+          "ROUGE-L": 0.1904
+        },
+        "lower_case": {
+          "ifr": 61.51,
+          "METEOR": 0.1103,
+          "CIDEr-D": 0.2634,
+          "ROUGE-L": 0.2261
+        },
+        "semantic_equal_complex": {
+          "ifr": 77.7,
+          "METEOR": 0.1246,
+          "CIDEr-D": 0.1296,
+          "ROUGE-L": 0.1995
+        },
+        "semantic_equal_neutral": {
+          "ifr": 59.34,
+          "METEOR": 0.1069,
+          "CIDEr-D": 0.2549,
+          "ROUGE-L": 0.2194
+        },
+        "semantic_equal_simple": {
+          "ifr": 82.37,
+          "METEOR": 0.1458,
+          "CIDEr-D": 0.3501,
+          "ROUGE-L": 0.2953
+        },
+        "syntax_robust": {
+          "ifr": 52.49,
+          "METEOR": 0.0935,
+          "CIDEr-D": 0.2164,
+          "ROUGE-L": 0.1874
+        },
+        "upper_case": {
+          "ifr": 58.51,
+          "METEOR": 0.1043,
+          "CIDEr-D": 0.2353,
+          "ROUGE-L": 0.2121
+        },
+        "all": {
+          "ifr": 62.61,
+          "METEOR": 0.1117,
+          "CIDEr-D": 0.2341,
+          "ROUGE-L": 0.2193
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 68.66,
+          "wer": 37.09
+        },
+        "upper_case": {
+          "ifr": 36.79,
+          "wer": 80.22
+        },
+        "lower_case": {
+          "ifr": 95.99,
+          "wer": 6.64
+        },
+        "prefix": {
+          "ifr": 80.65,
+          "wer": 26.93
+        },
+        "suffix": {
+          "ifr": 35.5,
+          "wer": 72.29
+        },
+        "wrap": {
+          "ifr": 41.6,
+          "wer": 62.37
+        },
+        "json": {
+          "ifr": 0.19,
+          "wer": 99.86
+        },
+        "all": {
+          "ifr": 51.34,
+          "wer": 55.06
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 100.0,
+          "acc": 89.62
+        },
+        "upper_case": {
+          "ifr": 99.85,
+          "acc": 72.1
+        },
+        "lower_case": {
+          "ifr": 94.31,
+          "acc": 76.53
+        },
+        "prefix": {
+          "ifr": 51.41,
+          "acc": 38.97
+        },
+        "suffix": {
+          "ifr": 27.14,
+          "acc": 18.51
+        },
+        "wrap": {
+          "ifr": 34.01,
+          "acc": 25.69
+        },
+        "json": {
+          "ifr": 0.08,
+          "acc": 0.04
+        },
+        "all": {
+          "ifr": 58.11,
+          "acc": 45.92
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 100.0,
+          "acc": 63.9
+        },
+        "upper_case": {
+          "ifr": 93.07,
+          "acc": 53.1
+        },
+        "lower_case": {
+          "ifr": 99.44,
+          "acc": 55.44
+        },
+        "prefix": {
+          "ifr": 25.87,
+          "acc": 13.05
+        },
+        "suffix": {
+          "ifr": 9.02,
+          "acc": 4.67
+        },
+        "wrap": {
+          "ifr": 20.63,
+          "acc": 11.6
+        },
+        "json": {
+          "ifr": 0.81,
+          "acc": 0.48
+        },
+        "all": {
+          "ifr": 49.83,
+          "acc": 28.89
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 81.11,
+          "bleu": 30.92
+        },
+        "prefix": {
+          "ifr": 69.95,
+          "bleu": 26.36
+        },
+        "suffix": {
+          "ifr": 17.63,
+          "bleu": 0.5
+        },
+        "wrap": {
+          "ifr": 45.88,
+          "bleu": 13.17
+        },
+        "json": {
+          "ifr": 0.03,
+          "bleu": 0.0
+        },
+        "all": {
+          "ifr": 42.92,
+          "bleu": 11.05
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 68.26,
+          "METEOR": 0.1235,
+          "CIDEr-D": 0.2375,
+          "ROUGE-L": 0.2329
+        },
+        "upper_case": {
+          "ifr": 21.89,
+          "METEOR": 0.0112,
+          "CIDEr-D": 0.0232,
+          "ROUGE-L": 0.0279
+        },
+        "lower_case": {
+          "ifr": 93.05,
+          "METEOR": 0.1363,
+          "CIDEr-D": 0.2984,
+          "ROUGE-L": 0.2723
+        },
+        "prefix": {
+          "ifr": 71.78,
+          "METEOR": 0.12,
+          "CIDEr-D": 0.2598,
+          "ROUGE-L": 0.2368
+        },
+        "suffix": {
+          "ifr": 26.35,
+          "METEOR": 0.0344,
+          "CIDEr-D": 0.068,
+          "ROUGE-L": 0.0628
+        },
+        "wrap": {
+          "ifr": 44.81,
+          "METEOR": 0.0672,
+          "CIDEr-D": 0.1198,
+          "ROUGE-L": 0.1249
+        },
+        "json": {
+          "ifr": 11.2,
+          "METEOR": 0.0212,
+          "CIDEr-D": 0.048,
+          "ROUGE-L": 0.0425
+        },
+        "all": {
+          "ifr": 48.19,
+          "METEOR": 0.0729,
+          "CIDEr-D": 0.1438,
+          "ROUGE-L": 0.1429
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 14.24,
+              "wer": 90.7,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 24.08,
+              "acc": 14.11,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 21.95,
+              "acc": 21.71,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 16.23,
+              "wer": 89.76,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 16.23,
+              "acc": 9.18,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 16.23,
+              "acc": 15.93,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 35.05,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 1.27,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "salmonn": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 40.11,
+          "wer": 64.42
+        },
+        "case": {
+          "ifr": 63.24,
+          "wer": 41.28
+        },
+        "robust": {
+          "ifr": 58.78,
+          "wer": 46.06
+        },
+        "semantic_equal_simple": {
+          "ifr": 60.54,
+          "wer": 50.39
+        },
+        "semantic_equal_neutral": {
+          "ifr": 27.39,
+          "wer": 79.19
+        },
+        "semantic_equal_complex": {
+          "ifr": 62.63,
+          "wer": 54.46
+        },
+        "alter_symbol": {
+          "ifr": 32.91,
+          "wer": 73.5
+        },
+        "all": {
+          "ifr": 48.06,
+          "wer": 61.07
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 97.65,
+          "acc": 56.31
+        },
+        "default": {
+          "ifr": 99.39,
+          "acc": 60.76
+        },
+        "case": {
+          "ifr": 98.68,
+          "acc": 57.08
+        },
+        "robust": {
+          "ifr": 93.21,
+          "acc": 49.47
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.92,
+          "acc": 53.4
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.81,
+          "acc": 61.83
+        },
+        "semantic_equal_complex": {
+          "ifr": 96.3,
+          "acc": 56.45
+        },
+        "alter_symbol": {
+          "ifr": 99.66,
+          "acc": 61.26
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 53.14,
+          "acc": 20.9
+        },
+        "default": {
+          "ifr": 91.54,
+          "acc": 36.66
+        },
+        "case": {
+          "ifr": 84.17,
+          "acc": 35.25
+        },
+        "robust": {
+          "ifr": 64.71,
+          "acc": 26.39
+        },
+        "semantic_equal_simple": {
+          "ifr": 45.51,
+          "acc": 17.99
+        },
+        "semantic_equal_neutral": {
+          "ifr": 49.99,
+          "acc": 18.44
+        },
+        "semantic_equal_complex": {
+          "ifr": 19.71,
+          "acc": 7.93
+        },
+        "alter_symbol": {
+          "ifr": 72.62,
+          "acc": 28.15
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 0.3,
+          "bleu": 0.0,
+          "p1": 2.36,
+          "p2": 0.59,
+          "p3": 0.21,
+          "p4": 0.12,
+          "bp": 0.0,
+          "len_ratio": 0.0023
+        },
+        "default": {
+          "ifr": 0.34,
+          "bleu": 0.0,
+          "p1": 2.54,
+          "p2": 0.13,
+          "p3": 0.07,
+          "p4": 0.04,
+          "bp": 0.0,
+          "len_ratio": 0.0018
+        },
+        "grammar_robust": {
+          "ifr": 0.42,
+          "bleu": 0.0,
+          "p1": 10.37,
+          "p2": 6.22,
+          "p3": 4.75,
+          "p4": 3.69,
+          "bp": 0.0,
+          "len_ratio": 0.0021
+        },
+        "lower_case": {
+          "ifr": 0.43,
+          "bleu": 0.0,
+          "p1": 5.12,
+          "p2": 1.83,
+          "p3": 1.23,
+          "p4": 0.93,
+          "bp": 0.0,
+          "len_ratio": 0.0025
+        },
+        "semantic_equal_complex": {
+          "ifr": 0.03,
+          "bleu": 0.0,
+          "p1": 64.1,
+          "p2": 36.11,
+          "p3": 24.24,
+          "p4": 16.67,
+          "bp": 0.0,
+          "len_ratio": 0.0002
+        },
+        "semantic_equal_neutral": {
+          "ifr": 0.34,
+          "bleu": 0.0,
+          "p1": 0.51,
+          "p2": 0.14,
+          "p3": 0.08,
+          "p4": 0.05,
+          "bp": 0.0,
+          "len_ratio": 0.0017
+        },
+        "semantic_equal_simple": {
+          "ifr": 15.98,
+          "bleu": 0.0,
+          "p1": 1.98,
+          "p2": 0.78,
+          "p3": 0.47,
+          "p4": 0.37,
+          "bp": 0.0001,
+          "len_ratio": 0.0941
+        },
+        "syntax_robust": {
+          "ifr": 2.54,
+          "bleu": 0.0,
+          "p1": 6.94,
+          "p2": 3.9,
+          "p3": 2.55,
+          "p4": 1.85,
+          "bp": 0.0,
+          "len_ratio": 0.0183
+        },
+        "upper_case": {
+          "ifr": 2.14,
+          "bleu": 0.0,
+          "p1": 28.11,
+          "p2": 15.13,
+          "p3": 9.3,
+          "p4": 6.56,
+          "bp": 0.0,
+          "len_ratio": 0.0194
+        },
+        "all": {
+          "ifr": 2.5,
+          "bleu": 0.0,
+          "p1": 6.43,
+          "p2": 3.31,
+          "p3": 2.11,
+          "p4": 1.55,
+          "bp": 0.0,
+          "len_ratio": 0.0158
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 36.31,
+          "METEOR": 0.0119,
+          "CIDEr-D": 0.0216,
+          "ROUGE-L": 0.0247
+        },
+        "default": {
+          "ifr": 43.46,
+          "METEOR": 0.013,
+          "CIDEr-D": 0.015,
+          "ROUGE-L": 0.0265
+        },
+        "grammar_robust": {
+          "ifr": 38.07,
+          "METEOR": 0.0109,
+          "CIDEr-D": 0.0125,
+          "ROUGE-L": 0.021
+        },
+        "lower_case": {
+          "ifr": 41.91,
+          "METEOR": 0.0127,
+          "CIDEr-D": 0.0272,
+          "ROUGE-L": 0.0281
+        },
+        "semantic_equal_complex": {
+          "ifr": 75.52,
+          "METEOR": 0.0141,
+          "CIDEr-D": 0.0028,
+          "ROUGE-L": 0.0226
+        },
+        "semantic_equal_neutral": {
+          "ifr": 42.95,
+          "METEOR": 0.0135,
+          "CIDEr-D": 0.0151,
+          "ROUGE-L": 0.0247
+        },
+        "semantic_equal_simple": {
+          "ifr": 71.47,
+          "METEOR": 0.0153,
+          "CIDEr-D": 0.0406,
+          "ROUGE-L": 0.0398
+        },
+        "syntax_robust": {
+          "ifr": 41.8,
+          "METEOR": 0.0129,
+          "CIDEr-D": 0.0264,
+          "ROUGE-L": 0.0255
+        },
+        "upper_case": {
+          "ifr": 42.22,
+          "METEOR": 0.0136,
+          "CIDEr-D": 0.0301,
+          "ROUGE-L": 0.0298
+        },
+        "all": {
+          "ifr": 48.19,
+          "METEOR": 0.0132,
+          "CIDEr-D": 0.0204,
+          "ROUGE-L": 0.027
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 97.21,
+          "wer": 4.03
+        },
+        "upper_case": {
+          "ifr": 75.38,
+          "wer": 30.65
+        },
+        "lower_case": {
+          "ifr": 5.65,
+          "wer": 94.0
+        },
+        "prefix": {
+          "ifr": 23.21,
+          "wer": 83.93
+        },
+        "suffix": {
+          "ifr": 2.1,
+          "wer": 99.61
+        },
+        "wrap": {
+          "ifr": 6.15,
+          "wer": 95.5
+        },
+        "json": {
+          "ifr": 12.4,
+          "wer": 93.57
+        },
+        "all": {
+          "ifr": 31.73,
+          "wer": 71.61
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 99.81,
+          "acc": 60.38
+        },
+        "upper_case": {
+          "ifr": 99.35,
+          "acc": 54.2
+        },
+        "lower_case": {
+          "ifr": 2.63,
+          "acc": 1.95
+        },
+        "prefix": {
+          "ifr": 7.1,
+          "acc": 3.32
+        },
+        "suffix": {
+          "ifr": 6.56,
+          "acc": 3.02
+        },
+        "wrap": {
+          "ifr": 2.82,
+          "acc": 1.3
+        },
+        "json": {
+          "ifr": 27.37,
+          "acc": 14.24
+        },
+        "all": {
+          "ifr": 35.09,
+          "acc": 19.77
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 99.19,
+          "acc": 39.32
+        },
+        "upper_case": {
+          "ifr": 97.74,
+          "acc": 48.59
+        },
+        "lower_case": {
+          "ifr": 1.61,
+          "acc": 1.21
+        },
+        "prefix": {
+          "ifr": 13.7,
+          "acc": 4.75
+        },
+        "suffix": {
+          "ifr": 36.66,
+          "acc": 15.87
+        },
+        "wrap": {
+          "ifr": 7.82,
+          "acc": 3.06
+        },
+        "json": {
+          "ifr": 66.88,
+          "acc": 27.07
+        },
+        "all": {
+          "ifr": 46.23,
+          "acc": 19.98
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 98.65,
+          "bleu": 34.2
+        },
+        "prefix": {
+          "ifr": 5.87,
+          "bleu": 0.0
+        },
+        "suffix": {
+          "ifr": 9.79,
+          "bleu": 0.0
+        },
+        "wrap": {
+          "ifr": 0.64,
+          "bleu": 0.0
+        },
+        "json": {
+          "ifr": 0.27,
+          "bleu": 0.0
+        },
+        "all": {
+          "ifr": 23.04,
+          "bleu": 1.4
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 65.87,
+          "METEOR": 0.136,
+          "CIDEr-D": 0.3046,
+          "ROUGE-L": 0.2512
+        },
+        "upper_case": {
+          "ifr": 88.69,
+          "METEOR": 0.1158,
+          "CIDEr-D": 0.2675,
+          "ROUGE-L": 0.2531
+        },
+        "lower_case": {
+          "ifr": 6.12,
+          "METEOR": 0.0071,
+          "CIDEr-D": 0.022,
+          "ROUGE-L": 0.0166
+        },
+        "prefix": {
+          "ifr": 70.12,
+          "METEOR": 0.0555,
+          "CIDEr-D": 0.123,
+          "ROUGE-L": 0.1265
+        },
+        "suffix": {
+          "ifr": 15.77,
+          "METEOR": 0.0138,
+          "CIDEr-D": 0.0141,
+          "ROUGE-L": 0.0189
+        },
+        "wrap": {
+          "ifr": 14.52,
+          "METEOR": 0.0241,
+          "CIDEr-D": 0.0412,
+          "ROUGE-L": 0.044
+        },
+        "json": {
+          "ifr": 17.84,
+          "METEOR": 0.0051,
+          "CIDEr-D": 0.0092,
+          "ROUGE-L": 0.008
+        },
+        "all": {
+          "ifr": 39.85,
+          "METEOR": 0.0522,
+          "CIDEr-D": 0.1078,
+          "ROUGE-L": 0.1026
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 8.96,
+              "wer": 92.71,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 40.12,
+              "acc": 15.95,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 35.78,
+              "acc": 27.23,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 37.61,
+              "wer": 71.05,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 37.61,
+              "acc": 15.74,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 37.61,
+              "acc": 28.65,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 30.37,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 35.52,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "qwen2.5_omni": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 30.88,
+          "wer": 85.86
+        },
+        "case": {
+          "ifr": 30.36,
+          "wer": 90.48
+        },
+        "robust": {
+          "ifr": 32.86,
+          "wer": 87.65
+        },
+        "semantic_equal_simple": {
+          "ifr": 42.44,
+          "wer": 79.5
+        },
+        "semantic_equal_neutral": {
+          "ifr": 31.82,
+          "wer": 85.11
+        },
+        "semantic_equal_complex": {
+          "ifr": 20.8,
+          "wer": 84.69
+        },
+        "alter_symbol": {
+          "ifr": 30.52,
+          "wer": 83.0
+        },
+        "all": {
+          "ifr": 31.41,
+          "wer": 84.14
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 96.0,
+          "acc": 58.52
+        },
+        "default": {
+          "ifr": 99.96,
+          "acc": 62.21
+        },
+        "case": {
+          "ifr": 74.31,
+          "acc": 46.89
+        },
+        "robust": {
+          "ifr": 80.88,
+          "acc": 47.52
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.95,
+          "acc": 59.77
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.82,
+          "acc": 61.5
+        },
+        "semantic_equal_complex": {
+          "ifr": 98.34,
+          "acc": 59.69
+        },
+        "alter_symbol": {
+          "ifr": 99.79,
+          "acc": 61.41
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 82.19,
+          "acc": 52.6
+        },
+        "default": {
+          "ifr": 95.89,
+          "acc": 61.8
+        },
+        "case": {
+          "ifr": 51.53,
+          "acc": 33.84
+        },
+        "robust": {
+          "ifr": 49.64,
+          "acc": 33.28
+        },
+        "semantic_equal_simple": {
+          "ifr": 96.73,
+          "acc": 60.66
+        },
+        "semantic_equal_neutral": {
+          "ifr": 97.39,
+          "acc": 62.13
+        },
+        "semantic_equal_complex": {
+          "ifr": 62.61,
+          "acc": 40.44
+        },
+        "alter_symbol": {
+          "ifr": 94.55,
+          "acc": 60.55
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 80.16,
+          "bleu": 33.0,
+          "p1": 61.71,
+          "p2": 43.98,
+          "p3": 33.3,
+          "p4": 25.82,
+          "bp": 0.8443,
+          "len_ratio": 0.8552
+        },
+        "default": {
+          "ifr": 87.77,
+          "bleu": 36.6,
+          "p1": 58.96,
+          "p2": 41.84,
+          "p3": 31.55,
+          "p4": 24.34,
+          "bp": 0.9865,
+          "len_ratio": 0.9866
+        },
+        "grammar_robust": {
+          "ifr": 67.73,
+          "bleu": 15.64,
+          "p1": 37.02,
+          "p2": 26.05,
+          "p3": 19.69,
+          "p4": 15.27,
+          "bp": 0.6737,
+          "len_ratio": 0.7169
+        },
+        "lower_case": {
+          "ifr": 90.06,
+          "bleu": 29.14,
+          "p1": 47.31,
+          "p2": 33.02,
+          "p3": 24.61,
+          "p4": 18.75,
+          "bp": 1.0,
+          "len_ratio": 1.2148
+        },
+        "semantic_equal_complex": {
+          "ifr": 88.15,
+          "bleu": 38.34,
+          "p1": 62.04,
+          "p2": 44.0,
+          "p3": 33.21,
+          "p4": 25.66,
+          "bp": 0.9818,
+          "len_ratio": 0.982
+        },
+        "semantic_equal_neutral": {
+          "ifr": 85.22,
+          "bleu": 35.56,
+          "p1": 59.29,
+          "p2": 42.13,
+          "p3": 31.84,
+          "p4": 24.61,
+          "bp": 0.9508,
+          "len_ratio": 0.952
+        },
+        "semantic_equal_simple": {
+          "ifr": 83.17,
+          "bleu": 28.75,
+          "p1": 54.95,
+          "p2": 39.32,
+          "p3": 29.94,
+          "p4": 23.38,
+          "bp": 0.8198,
+          "len_ratio": 0.8343
+        },
+        "syntax_robust": {
+          "ifr": 40.88,
+          "bleu": 2.26,
+          "p1": 22.22,
+          "p2": 15.21,
+          "p3": 11.42,
+          "p4": 8.9,
+          "bp": 0.166,
+          "len_ratio": 0.3577
+        },
+        "upper_case": {
+          "ifr": 30.86,
+          "bleu": 3.67,
+          "p1": 47.15,
+          "p2": 33.34,
+          "p3": 25.26,
+          "p4": 19.63,
+          "bp": 0.1235,
+          "len_ratio": 0.3235
+        },
+        "all": {
+          "ifr": 80.03,
+          "bleu": 31.13,
+          "p1": 57.34,
+          "p2": 40.76,
+          "p3": 30.83,
+          "p4": 23.87,
+          "bp": 0.8597,
+          "len_ratio": 0.8687
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 20.02,
+          "METEOR": 0.0405,
+          "CIDEr-D": 0.0696,
+          "ROUGE-L": 0.0687
+        },
+        "default": {
+          "ifr": 27.59,
+          "METEOR": 0.0543,
+          "CIDEr-D": 0.0823,
+          "ROUGE-L": 0.0893
+        },
+        "grammar_robust": {
+          "ifr": 30.6,
+          "METEOR": 0.0604,
+          "CIDEr-D": 0.0731,
+          "ROUGE-L": 0.094
+        },
+        "lower_case": {
+          "ifr": 40.77,
+          "METEOR": 0.0817,
+          "CIDEr-D": 0.1045,
+          "ROUGE-L": 0.1299
+        },
+        "semantic_equal_complex": {
+          "ifr": 43.67,
+          "METEOR": 0.0796,
+          "CIDEr-D": 0.0226,
+          "ROUGE-L": 0.0803
+        },
+        "semantic_equal_neutral": {
+          "ifr": 25.21,
+          "METEOR": 0.0501,
+          "CIDEr-D": 0.0745,
+          "ROUGE-L": 0.0845
+        },
+        "semantic_equal_simple": {
+          "ifr": 53.42,
+          "METEOR": 0.1098,
+          "CIDEr-D": 0.2498,
+          "ROUGE-L": 0.2148
+        },
+        "syntax_robust": {
+          "ifr": 35.79,
+          "METEOR": 0.0699,
+          "CIDEr-D": 0.091,
+          "ROUGE-L": 0.1135
+        },
+        "upper_case": {
+          "ifr": 25.0,
+          "METEOR": 0.0516,
+          "CIDEr-D": 0.0736,
+          "ROUGE-L": 0.0843
+        },
+        "all": {
+          "ifr": 33.56,
+          "METEOR": 0.0668,
+          "CIDEr-D": 0.0903,
+          "ROUGE-L": 0.1066
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 88.13,
+          "wer": 14.27
+        },
+        "upper_case": {
+          "ifr": 96.83,
+          "wer": 12.74
+        },
+        "lower_case": {
+          "ifr": 99.85,
+          "wer": 7.53
+        },
+        "prefix": {
+          "ifr": 67.9,
+          "wer": 42.57
+        },
+        "suffix": {
+          "ifr": 67.6,
+          "wer": 48.96
+        },
+        "wrap": {
+          "ifr": 74.08,
+          "wer": 31.37
+        },
+        "json": {
+          "ifr": 99.66,
+          "wer": 4.02
+        },
+        "all": {
+          "ifr": 84.86,
+          "wer": 23.07
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 69.77,
+          "acc": 49.62
+        },
+        "upper_case": {
+          "ifr": 99.85,
+          "acc": 67.9
+        },
+        "lower_case": {
+          "ifr": 99.77,
+          "acc": 65.5
+        },
+        "prefix": {
+          "ifr": 32.33,
+          "acc": 22.29
+        },
+        "suffix": {
+          "ifr": 51.79,
+          "acc": 35.92
+        },
+        "wrap": {
+          "ifr": 75.65,
+          "acc": 50.53
+        },
+        "json": {
+          "ifr": 94.35,
+          "acc": 65.5
+        },
+        "all": {
+          "ifr": 74.79,
+          "acc": 51.04
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 89.93,
+          "acc": 57.94
+        },
+        "upper_case": {
+          "ifr": 99.84,
+          "acc": 48.75
+        },
+        "lower_case": {
+          "ifr": 98.95,
+          "acc": 58.82
+        },
+        "prefix": {
+          "ifr": 43.51,
+          "acc": 26.99
+        },
+        "suffix": {
+          "ifr": 56.24,
+          "acc": 34.65
+        },
+        "wrap": {
+          "ifr": 82.11,
+          "acc": 48.51
+        },
+        "json": {
+          "ifr": 99.44,
+          "acc": 63.9
+        },
+        "all": {
+          "ifr": 81.43,
+          "acc": 48.51
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 96.11,
+          "bleu": 42.95
+        },
+        "prefix": {
+          "ifr": 59.0,
+          "bleu": 22.45
+        },
+        "suffix": {
+          "ifr": 74.46,
+          "bleu": 31.63
+        },
+        "wrap": {
+          "ifr": 69.42,
+          "bleu": 28.12
+        },
+        "json": {
+          "ifr": 82.68,
+          "bleu": 35.28
+        },
+        "all": {
+          "ifr": 76.34,
+          "bleu": 32.41
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 71.27,
+          "METEOR": 0.1495,
+          "CIDEr-D": 0.3369,
+          "ROUGE-L": 0.2966
+        },
+        "upper_case": {
+          "ifr": 69.19,
+          "METEOR": 0.0922,
+          "CIDEr-D": 0.1977,
+          "ROUGE-L": 0.2008
+        },
+        "lower_case": {
+          "ifr": 99.07,
+          "METEOR": 0.184,
+          "CIDEr-D": 0.5147,
+          "ROUGE-L": 0.4024
+        },
+        "prefix": {
+          "ifr": 63.49,
+          "METEOR": 0.1285,
+          "CIDEr-D": 0.2346,
+          "ROUGE-L": 0.2409
+        },
+        "suffix": {
+          "ifr": 60.06,
+          "METEOR": 0.1296,
+          "CIDEr-D": 0.2704,
+          "ROUGE-L": 0.2371
+        },
+        "wrap": {
+          "ifr": 78.11,
+          "METEOR": 0.1622,
+          "CIDEr-D": 0.3002,
+          "ROUGE-L": 0.2893
+        },
+        "json": {
+          "ifr": 98.03,
+          "METEOR": 0.2113,
+          "CIDEr-D": 0.4921,
+          "ROUGE-L": 0.4113
+        },
+        "all": {
+          "ifr": 77.03,
+          "METEOR": 0.1497,
+          "CIDEr-D": 0.3267,
+          "ROUGE-L": 0.2969
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 85.3,
+              "wer": 26.17,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 92.81,
+              "acc": 62.06,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 91.74,
+              "acc": 88.31,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 86.24,
+              "wer": 25.45,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 86.24,
+              "acc": 57.01,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 86.24,
+              "acc": 82.99,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 83.99,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 92.2,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "qwen2_audio-modified": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 93.4,
+          "wer": 10.4
+        },
+        "case": {
+          "ifr": 93.99,
+          "wer": 9.07
+        },
+        "robust": {
+          "ifr": 84.52,
+          "wer": 19.39
+        },
+        "semantic_equal_simple": {
+          "ifr": 93.85,
+          "wer": 9.77
+        },
+        "semantic_equal_neutral": {
+          "ifr": 92.21,
+          "wer": 11.87
+        },
+        "semantic_equal_complex": {
+          "ifr": 95.57,
+          "wer": 8.21
+        },
+        "alter_symbol": {
+          "ifr": 90.23,
+          "wer": 13.73
+        },
+        "all": {
+          "ifr": 91.37,
+          "wer": 12.32
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 99.84,
+          "acc": 88.0
+        },
+        "default": {
+          "ifr": 100.0,
+          "acc": 89.24
+        },
+        "case": {
+          "ifr": 100.0,
+          "acc": 88.49
+        },
+        "robust": {
+          "ifr": 99.29,
+          "acc": 86.83
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "acc": 86.11
+        },
+        "semantic_equal_neutral": {
+          "ifr": 100.0,
+          "acc": 88.78
+        },
+        "semantic_equal_complex": {
+          "ifr": 100.0,
+          "acc": 87.67
+        },
+        "alter_symbol": {
+          "ifr": 100.0,
+          "acc": 89.54
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 99.1,
+          "acc": 63.61
+        },
+        "default": {
+          "ifr": 99.76,
+          "acc": 64.87
+        },
+        "case": {
+          "ifr": 99.8,
+          "acc": 63.34
+        },
+        "robust": {
+          "ifr": 99.07,
+          "acc": 64.63
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "acc": 65.43
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.92,
+          "acc": 63.74
+        },
+        "semantic_equal_complex": {
+          "ifr": 94.6,
+          "acc": 56.89
+        },
+        "alter_symbol": {
+          "ifr": 99.84,
+          "acc": 65.67
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 57.39,
+          "bleu": 16.7,
+          "p1": 62.97,
+          "p2": 42.9,
+          "p3": 31.44,
+          "p4": 23.71,
+          "bp": 0.4433,
+          "len_ratio": 0.5514
+        },
+        "default": {
+          "ifr": 66.42,
+          "bleu": 22.16,
+          "p1": 63.93,
+          "p2": 43.62,
+          "p3": 31.98,
+          "p4": 24.06,
+          "bp": 0.579,
+          "len_ratio": 0.6467
+        },
+        "grammar_robust": {
+          "ifr": 56.6,
+          "bleu": 13.91,
+          "p1": 56.47,
+          "p2": 38.59,
+          "p3": 28.41,
+          "p4": 21.59,
+          "bp": 0.409,
+          "len_ratio": 0.528
+        },
+        "lower_case": {
+          "ifr": 66.32,
+          "bleu": 22.54,
+          "p1": 63.89,
+          "p2": 43.65,
+          "p3": 32.03,
+          "p4": 24.14,
+          "bp": 0.5881,
+          "len_ratio": 0.6532
+        },
+        "semantic_equal_complex": {
+          "ifr": 58.88,
+          "bleu": 18.82,
+          "p1": 64.1,
+          "p2": 43.46,
+          "p3": 31.77,
+          "p4": 23.88,
+          "bp": 0.4937,
+          "len_ratio": 0.5862
+        },
+        "semantic_equal_neutral": {
+          "ifr": 63.17,
+          "bleu": 20.25,
+          "p1": 63.85,
+          "p2": 43.62,
+          "p3": 32.07,
+          "p4": 24.23,
+          "bp": 0.528,
+          "len_ratio": 0.6102
+        },
+        "semantic_equal_simple": {
+          "ifr": 63.05,
+          "bleu": 19.5,
+          "p1": 62.9,
+          "p2": 42.92,
+          "p3": 31.56,
+          "p4": 23.85,
+          "bp": 0.5164,
+          "len_ratio": 0.6021
+        },
+        "syntax_robust": {
+          "ifr": 58.99,
+          "bleu": 15.53,
+          "p1": 58.12,
+          "p2": 39.67,
+          "p3": 29.17,
+          "p4": 22.15,
+          "bp": 0.4446,
+          "len_ratio": 0.5523
+        },
+        "upper_case": {
+          "ifr": 69.95,
+          "bleu": 24.22,
+          "p1": 63.47,
+          "p2": 43.39,
+          "p3": 31.86,
+          "p4": 24.05,
+          "bp": 0.6354,
+          "len_ratio": 0.688
+        },
+        "all": {
+          "ifr": 62.31,
+          "bleu": 19.3,
+          "p1": 62.34,
+          "p2": 42.54,
+          "p3": 31.23,
+          "p4": 23.58,
+          "bp": 0.5163,
+          "len_ratio": 0.602
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 55.29,
+          "METEOR": 0.1017,
+          "CIDEr-D": 0.2472,
+          "ROUGE-L": 0.2074
+        },
+        "default": {
+          "ifr": 64.11,
+          "METEOR": 0.1179,
+          "CIDEr-D": 0.2785,
+          "ROUGE-L": 0.2358
+        },
+        "grammar_robust": {
+          "ifr": 52.18,
+          "METEOR": 0.0942,
+          "CIDEr-D": 0.2253,
+          "ROUGE-L": 0.1904
+        },
+        "lower_case": {
+          "ifr": 61.51,
+          "METEOR": 0.1103,
+          "CIDEr-D": 0.2634,
+          "ROUGE-L": 0.2261
+        },
+        "semantic_equal_complex": {
+          "ifr": 77.7,
+          "METEOR": 0.1246,
+          "CIDEr-D": 0.1296,
+          "ROUGE-L": 0.1995
+        },
+        "semantic_equal_neutral": {
+          "ifr": 59.34,
+          "METEOR": 0.1069,
+          "CIDEr-D": 0.2549,
+          "ROUGE-L": 0.2194
+        },
+        "semantic_equal_simple": {
+          "ifr": 82.37,
+          "METEOR": 0.1458,
+          "CIDEr-D": 0.3501,
+          "ROUGE-L": 0.2953
+        },
+        "syntax_robust": {
+          "ifr": 52.49,
+          "METEOR": 0.0935,
+          "CIDEr-D": 0.2164,
+          "ROUGE-L": 0.1874
+        },
+        "upper_case": {
+          "ifr": 58.51,
+          "METEOR": 0.1043,
+          "CIDEr-D": 0.2353,
+          "ROUGE-L": 0.2121
+        },
+        "all": {
+          "ifr": 62.61,
+          "METEOR": 0.1117,
+          "CIDEr-D": 0.2341,
+          "ROUGE-L": 0.2193
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 68.66,
+          "wer": 37.09
+        },
+        "upper_case": {
+          "ifr": 36.79,
+          "wer": 80.22
+        },
+        "lower_case": {
+          "ifr": 95.99,
+          "wer": 6.64
+        },
+        "prefix": {
+          "ifr": 80.65,
+          "wer": 26.93
+        },
+        "suffix": {
+          "ifr": 35.5,
+          "wer": 72.29
+        },
+        "wrap": {
+          "ifr": 41.6,
+          "wer": 62.37
+        },
+        "json": {
+          "ifr": 80.61,
+          "wer": 25.58
+        },
+        "all": {
+          "ifr": 62.83,
+          "wer": 44.45
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 100.0,
+          "acc": 89.62
+        },
+        "upper_case": {
+          "ifr": 99.85,
+          "acc": 72.1
+        },
+        "lower_case": {
+          "ifr": 94.31,
+          "acc": 76.53
+        },
+        "prefix": {
+          "ifr": 51.41,
+          "acc": 38.97
+        },
+        "suffix": {
+          "ifr": 27.14,
+          "acc": 18.51
+        },
+        "wrap": {
+          "ifr": 34.01,
+          "acc": 25.69
+        },
+        "json": {
+          "ifr": 96.87,
+          "acc": 83.85
+        },
+        "all": {
+          "ifr": 71.94,
+          "acc": 57.9
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 100.0,
+          "acc": 63.9
+        },
+        "upper_case": {
+          "ifr": 93.07,
+          "acc": 53.1
+        },
+        "lower_case": {
+          "ifr": 99.44,
+          "acc": 55.44
+        },
+        "prefix": {
+          "ifr": 25.87,
+          "acc": 13.05
+        },
+        "suffix": {
+          "ifr": 9.02,
+          "acc": 4.67
+        },
+        "wrap": {
+          "ifr": 20.63,
+          "acc": 11.6
+        },
+        "json": {
+          "ifr": 97.99,
+          "acc": 61.4
+        },
+        "all": {
+          "ifr": 63.72,
+          "acc": 37.6
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 81.11,
+          "bleu": 30.92
+        },
+        "prefix": {
+          "ifr": 69.95,
+          "bleu": 26.36
+        },
+        "suffix": {
+          "ifr": 17.63,
+          "bleu": 0.5
+        },
+        "wrap": {
+          "ifr": 45.88,
+          "bleu": 13.17
+        },
+        "json": {
+          "ifr": 92.2,
+          "bleu": 37.12
+        },
+        "all": {
+          "ifr": 61.35,
+          "bleu": 21.58
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 68.26,
+          "METEOR": 0.1235,
+          "CIDEr-D": 0.2375,
+          "ROUGE-L": 0.2329
+        },
+        "upper_case": {
+          "ifr": 21.89,
+          "METEOR": 0.0112,
+          "CIDEr-D": 0.0232,
+          "ROUGE-L": 0.0279
+        },
+        "lower_case": {
+          "ifr": 93.05,
+          "METEOR": 0.1363,
+          "CIDEr-D": 0.2984,
+          "ROUGE-L": 0.2723
+        },
+        "prefix": {
+          "ifr": 71.78,
+          "METEOR": 0.12,
+          "CIDEr-D": 0.2598,
+          "ROUGE-L": 0.2368
+        },
+        "suffix": {
+          "ifr": 26.35,
+          "METEOR": 0.0344,
+          "CIDEr-D": 0.068,
+          "ROUGE-L": 0.0628
+        },
+        "wrap": {
+          "ifr": 44.81,
+          "METEOR": 0.0672,
+          "CIDEr-D": 0.1198,
+          "ROUGE-L": 0.1249
+        },
+        "json": {
+          "ifr": 56.02,
+          "METEOR": 0.1097,
+          "CIDEr-D": 0.2556,
+          "ROUGE-L": 0.2204
+        },
+        "all": {
+          "ifr": 54.59,
+          "METEOR": 0.085,
+          "CIDEr-D": 0.1725,
+          "ROUGE-L": 0.1683
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 35.29,
+              "wer": 77.39,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 55.93,
+              "acc": 33.68,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 54.61,
+              "acc": 54.31,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 42.06,
+              "wer": 72.75,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 42.06,
+              "acc": 24.91,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 42.06,
+              "acc": 41.66,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 35.05,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 55.62,
+            "n": 9492
+          }
+        }
+      }
+    }
+  },
+  "gemini-2.5-pro-modified": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 98.13,
+          "wer": 28.83
+        },
+        "case": {
+          "ifr": 98.03,
+          "wer": 27.7
+        },
+        "robust": {
+          "ifr": 95.86,
+          "wer": 20.91
+        },
+        "semantic_equal_simple": {
+          "ifr": 93.51,
+          "wer": 16.32
+        },
+        "semantic_equal_neutral": {
+          "ifr": 97.29,
+          "wer": 25.73
+        },
+        "semantic_equal_complex": {
+          "ifr": 99.96,
+          "wer": 2.25
+        },
+        "alter_symbol": {
+          "ifr": 95.73,
+          "wer": 25.51
+        },
+        "all": {
+          "ifr": 96.93,
+          "wer": 21.76
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 99.72,
+          "acc": 81.99
+        },
+        "default": {
+          "ifr": 99.81,
+          "acc": 82.06
+        },
+        "case": {
+          "ifr": 99.9,
+          "acc": 82.65
+        },
+        "robust": {
+          "ifr": 99.26,
+          "acc": 81.73
+        },
+        "semantic_equal_simple": {
+          "ifr": 99.89,
+          "acc": 82.48
+        },
+        "semantic_equal_neutral": {
+          "ifr": 99.89,
+          "acc": 81.95
+        },
+        "semantic_equal_complex": {
+          "ifr": 99.62,
+          "acc": 80.23
+        },
+        "alter_symbol": {
+          "ifr": 99.92,
+          "acc": 82.44
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 90.83,
+          "acc": 60.91
+        },
+        "default": {
+          "ifr": 95.41,
+          "acc": 63.09
+        },
+        "case": {
+          "ifr": 96.62,
+          "acc": 64.75
+        },
+        "robust": {
+          "ifr": 91.7,
+          "acc": 61.48
+        },
+        "semantic_equal_simple": {
+          "ifr": 95.49,
+          "acc": 64.79
+        },
+        "semantic_equal_neutral": {
+          "ifr": 98.39,
+          "acc": 66.08
+        },
+        "semantic_equal_complex": {
+          "ifr": 52.94,
+          "acc": 35.05
+        },
+        "alter_symbol": {
+          "ifr": 98.63,
+          "acc": 66.72
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 93.67,
+          "METEOR": 0.1294,
+          "CIDEr-D": 0.2116,
+          "ROUGE-L": 0.2613
+        },
+        "default": {
+          "ifr": 95.44,
+          "METEOR": 0.1311,
+          "CIDEr-D": 0.2236,
+          "ROUGE-L": 0.2659
+        },
+        "grammar_robust": {
+          "ifr": 95.12,
+          "METEOR": 0.1271,
+          "CIDEr-D": 0.2174,
+          "ROUGE-L": 0.2623
+        },
+        "lower_case": {
+          "ifr": 96.27,
+          "METEOR": 0.1325,
+          "CIDEr-D": 0.246,
+          "ROUGE-L": 0.2781
+        },
+        "semantic_equal_complex": {
+          "ifr": 98.03,
+          "METEOR": 0.1065,
+          "CIDEr-D": 0.0079,
+          "ROUGE-L": 0.1444
+        },
+        "semantic_equal_neutral": {
+          "ifr": 93.88,
+          "METEOR": 0.1264,
+          "CIDEr-D": 0.2015,
+          "ROUGE-L": 0.2512
+        },
+        "semantic_equal_simple": {
+          "ifr": 94.29,
+          "METEOR": 0.11,
+          "CIDEr-D": 0.2518,
+          "ROUGE-L": 0.249
+        },
+        "syntax_robust": {
+          "ifr": 90.98,
+          "METEOR": 0.1243,
+          "CIDEr-D": 0.2113,
+          "ROUGE-L": 0.2542
+        },
+        "upper_case": {
+          "ifr": 85.06,
+          "METEOR": 0.1189,
+          "CIDEr-D": 0.2015,
+          "ROUGE-L": 0.2421
+        },
+        "all": {
+          "ifr": 93.64,
+          "METEOR": 0.1207,
+          "CIDEr-D": 0.1867,
+          "ROUGE-L": 0.2454
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 90.5,
+          "bleu": 39.26,
+          "p1": 63.5,
+          "p2": 44.85,
+          "p3": 33.81,
+          "p4": 26.06,
+          "bp": 0.9864,
+          "len_ratio": 0.9865
+        },
+        "default": {
+          "ifr": 90.22,
+          "bleu": 39.22,
+          "p1": 63.64,
+          "p2": 45.06,
+          "p3": 33.98,
+          "p4": 26.19,
+          "bp": 0.9812,
+          "len_ratio": 0.9814
+        },
+        "grammar_robust": {
+          "ifr": 83.69,
+          "bleu": 31.79,
+          "p1": 51.83,
+          "p2": 36.06,
+          "p3": 26.78,
+          "p4": 20.4,
+          "bp": 1.0,
+          "len_ratio": 1.0545
+        },
+        "lower_case": {
+          "ifr": 90.95,
+          "bleu": 39.42,
+          "p1": 63.19,
+          "p2": 44.56,
+          "p3": 33.5,
+          "p4": 25.84,
+          "bp": 0.9976,
+          "len_ratio": 0.9976
+        },
+        "semantic_equal_complex": {
+          "ifr": 97.35,
+          "bleu": 21.42,
+          "p1": 37.07,
+          "p2": 24.73,
+          "p3": 17.7,
+          "p4": 12.98,
+          "bp": 1.0,
+          "len_ratio": 1.8085
+        },
+        "semantic_equal_neutral": {
+          "ifr": 90.36,
+          "bleu": 39.48,
+          "p1": 63.87,
+          "p2": 45.21,
+          "p3": 34.07,
+          "p4": 26.27,
+          "bp": 0.9847,
+          "len_ratio": 0.9848
+        },
+        "semantic_equal_simple": {
+          "ifr": 89.36,
+          "bleu": 35.69,
+          "p1": 58.12,
+          "p2": 40.91,
+          "p3": 30.79,
+          "p4": 23.74,
+          "bp": 0.9829,
+          "len_ratio": 0.9831
+        },
+        "syntax_robust": {
+          "ifr": 89.72,
+          "bleu": 38.56,
+          "p1": 61.23,
+          "p2": 43.45,
+          "p3": 32.8,
+          "p4": 25.33,
+          "bp": 1.0,
+          "len_ratio": 1.0164
+        },
+        "upper_case": {
+          "ifr": 90.18,
+          "bleu": 38.88,
+          "p1": 62.4,
+          "p2": 43.86,
+          "p3": 32.94,
+          "p4": 25.34,
+          "bp": 1.0,
+          "len_ratio": 1.0043
+        },
+        "all": {
+          "ifr": 90.26,
+          "bleu": 34.89,
+          "p1": 56.51,
+          "p2": 39.51,
+          "p3": 29.48,
+          "p4": 22.51,
+          "bp": 1.0,
+          "len_ratio": 1.0908
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 99.31,
+          "wer": 2.69
+        },
+        "upper_case": {
+          "ifr": 99.39,
+          "wer": 2.55
+        },
+        "lower_case": {
+          "ifr": 99.39,
+          "wer": 2.53
+        },
+        "prefix": {
+          "ifr": 99.05,
+          "wer": 3.44
+        },
+        "suffix": {
+          "ifr": 98.02,
+          "wer": 4.59
+        },
+        "wrap": {
+          "ifr": 98.89,
+          "wer": 3.49
+        },
+        "json": {
+          "ifr": 99.05,
+          "wer": 3.9
+        },
+        "all": {
+          "ifr": 99.01,
+          "wer": 3.31
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 97.52,
+          "acc": 81.03
+        },
+        "upper_case": {
+          "ifr": 99.31,
+          "acc": 83.09
+        },
+        "lower_case": {
+          "ifr": 99.62,
+          "acc": 84.81
+        },
+        "prefix": {
+          "ifr": 97.25,
+          "acc": 80.08
+        },
+        "suffix": {
+          "ifr": 93.21,
+          "acc": 78.51
+        },
+        "wrap": {
+          "ifr": 98.32,
+          "acc": 80.53
+        },
+        "json": {
+          "ifr": 99.05,
+          "acc": 84.73
+        },
+        "all": {
+          "ifr": 97.75,
+          "acc": 81.83
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 92.67,
+          "acc": 60.92
+        },
+        "upper_case": {
+          "ifr": 96.94,
+          "acc": 62.85
+        },
+        "lower_case": {
+          "ifr": 97.74,
+          "acc": 64.3
+        },
+        "prefix": {
+          "ifr": 93.88,
+          "acc": 61.08
+        },
+        "suffix": {
+          "ifr": 91.54,
+          "acc": 59.95
+        },
+        "wrap": {
+          "ifr": 97.42,
+          "acc": 64.95
+        },
+        "json": {
+          "ifr": 99.27,
+          "acc": 64.54
+        },
+        "all": {
+          "ifr": 95.64,
+          "acc": 62.66
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 95.71,
+          "bleu": 41.49
+        },
+        "prefix": {
+          "ifr": 96.0,
+          "bleu": 42.0
+        },
+        "suffix": {
+          "ifr": 96.57,
+          "bleu": 41.41
+        },
+        "wrap": {
+          "ifr": 96.54,
+          "bleu": 41.61
+        },
+        "json": {
+          "ifr": 96.28,
+          "bleu": 39.04
+        },
+        "all": {
+          "ifr": 96.22,
+          "bleu": 41.17
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 69.29,
+          "METEOR": 0.0978,
+          "CIDEr-D": 0.1715,
+          "ROUGE-L": 0.1986
+        },
+        "upper_case": {
+          "ifr": 92.43,
+          "METEOR": 0.1249,
+          "CIDEr-D": 0.2664,
+          "ROUGE-L": 0.2796
+        },
+        "lower_case": {
+          "ifr": 93.26,
+          "METEOR": 0.1295,
+          "CIDEr-D": 0.2709,
+          "ROUGE-L": 0.2873
+        },
+        "prefix": {
+          "ifr": 97.61,
+          "METEOR": 0.1426,
+          "CIDEr-D": 0.1925,
+          "ROUGE-L": 0.2725
+        },
+        "suffix": {
+          "ifr": 92.63,
+          "METEOR": 0.1429,
+          "CIDEr-D": 0.2131,
+          "ROUGE-L": 0.274
+        },
+        "wrap": {
+          "ifr": 98.34,
+          "METEOR": 0.1453,
+          "CIDEr-D": 0.2014,
+          "ROUGE-L": 0.2788
+        },
+        "json": {
+          "ifr": 97.93,
+          "METEOR": 0.1358,
+          "CIDEr-D": 0.2242,
+          "ROUGE-L": 0.2701
+        },
+        "all": {
+          "ifr": 91.64,
+          "METEOR": 0.1318,
+          "CIDEr-D": 0.2086,
+          "ROUGE-L": 0.2658
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 88.08,
+              "wer": 22.99,
+              "n": 6328
+            },
+            "SER": {
+              "ifr": 93.54,
+              "acc": 62.26,
+              "n": 6328
+            },
+            "GR": {
+              "ifr": 93.69,
+              "acc": 91.32,
+              "n": 6328
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 90.59,
+              "wer": 20.57,
+              "n": 9492
+            },
+            "SER": {
+              "ifr": 90.59,
+              "acc": 59.98,
+              "n": 9492
+            },
+            "GR": {
+              "ifr": 90.59,
+              "acc": 87.78,
+              "n": 9492
+            }
+          },
+          "separation": {
+            "ifr": 91.13,
+            "n": 9492
+          },
+          "json": {
+            "ifr": 91.23,
+            "n": 9492
+          }
+        }
+      }
+    }
+  }
+}

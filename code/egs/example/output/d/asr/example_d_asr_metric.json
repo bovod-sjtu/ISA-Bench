@@ -1,0 +1,34 @@
+{
+  "default": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "case": {
+    "ifr": 50.0,
+    "wer": 51.79
+  },
+  "robust": {
+    "ifr": 50.0,
+    "wer": 51.79
+  },
+  "semantic_equal_simple": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "semantic_equal_neutral": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "semantic_equal_complex": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "alter_symbol": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "all": {
+    "ifr": 22.22,
+    "wer": 78.57
+  }
+}

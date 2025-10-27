@@ -1,0 +1,34 @@
+{
+  "all": {
+    "ifr": 66.67,
+    "acc": 11.11
+  },
+  "default": {
+    "ifr": 100.0,
+    "acc": 0.0
+  },
+  "case": {
+    "ifr": 50.0,
+    "acc": 0.0
+  },
+  "robust": {
+    "ifr": 50.0,
+    "acc": 50.0
+  },
+  "semantic_equal_simple": {
+    "ifr": 100.0,
+    "acc": 0.0
+  },
+  "semantic_equal_neutral": {
+    "ifr": 100.0,
+    "acc": 0.0
+  },
+  "semantic_equal_complex": {
+    "ifr": 100.0,
+    "acc": 0.0
+  },
+  "alter_symbol": {
+    "ifr": 0.0,
+    "acc": 0.0
+  }
+}

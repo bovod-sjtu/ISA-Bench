@@ -1,0 +1,148 @@
+{
+  "annotation": [
+    {
+      "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/IEMOCAP_full_release/Session5/sentences/wav/Ses05F_script01_3/Ses05F_script01_3_M008.wav",
+      "emotion": "Happy",
+      "text": "Anne, I love you. I love you a great deal. I love you!",
+      "gender": "Male",
+      "instructions": {
+        "variations": {
+          "single-stage": {
+            "separation": [
+              [
+                {
+                  "task": "ASR|SER",
+                  "separator": "\\",
+                  "response": "The audio clip\\'s transcription reads: anne i love you i i love you a great deal i gee i love you\\\\nThe response to \\'The audio clip\\'s transcription, print only the transcription, nothing else. Use the \"\" to link results, for example (recognized speech)\\\\(speaker\\'s affect)\"\\', is: I love you."
+                },
+                {
+                  "task": "ASR|GR",
+                  "separator": "\\",
+                  "response": "The audio transcription is: anne i love you i i love you a great deal i i love you\\\\nAddressing the prompt \\'gender, in a single word, provide strictly \\'Male\\' or \\'Female\\'. Use the \\\\\" to link results, for example (recognized speech)\\\\(gender category)\", excluding extra words: \\', the answer is: Male"
+                },
+                {
+                  "task": "SER|ASR",
+                  "separator": "\\",
+                  "response": "The speaker\\'s affect is happy.\\\\nHere\\'s the text from the audio recording: anne i love you i i love you a great deal i i love you"
+                },
+                {
+                  "task": "SER|GR",
+                  "separator": "\\",
+                  "response": "The response to \\'identify the speaker\\'s feeling, in precisely one word, chosen from \"Happy\", \"Sad\" or \"Angry\" or \"Neutral\". Then, analyze the audio to find gender, in a single word, provide strictly \\'Male\\' or \\'Female\\'. Use the \"\" to link results, for example \"(speaker\\'s affect)\\\\(gender category)\", excluding extra words: \\' is: Happy\\\\nAs for \\'The speaker\\'s gender is male\\', the answer provided is: Male"
+                },
+                {
+                  "task": "GR|ASR",
+                  "separator": "\\",
+                  "response": "The audio clip\\'s gender is male. The transcribed text from the audio is: anne i love you i i love you a great deal i i love you\\\\nThe audio clip\\'s transcription has been edited to remove excess noise and improve the audio quality."
+                },
+                {
+                  "task": "GR|SER",
+                  "separator": "\\",
+                  "response": "The audio clip's gender is male. The emotion of the speaker is happy.\\\\nThe answer to 'The audio clip's gender is male. The emotion of the speaker is happy.\\\\nThe output should be (gender category)\\\\(speaker's affect)' is: Male\\\\nHappy"
+                }
+              ],
+              [
+                {
+                  "task": "ASR|SER|GR",
+                  "separator": "\\",
+                  "response": "The audio clip\\'s transcription reads: anne i love you i love you a great deal i i love you\\\\nThe response to \\'The speaker\\'s feeling expressed in the sentence is happy.\\' is: Happy\\\\nThe response to \\'The speaker\\'s gender is female\\' is: Female"
+                },
+                {
+                  "task": "ASR|GR|SER",
+                  "separator": "\\",
+                  "response": "The audio clip\\'s transcription reads: anne i love you i love you a great deal i i love you\\\\nThe audio clip\\'s gender is Male. The emotion of the speaker is Happy.\\\\nThe response to \\'The audio clip\\'s transcription, print only the transcription, nothing else. \\' is: Anne I love you. I love you a great deal. I. I love you."
+                },
+                {
+                  "task": "SER|ASR|GR",
+                  "separator": "\\",
+                  "response": "The response to \\'identify the speaker\\'s feeling, in precisely one word, chosen from \"\"Happy\"\", \"\"Sad\"\", \"\"Angry\"\", or \"\"Neutral\"\". Then, summarize the speech content, print only the transcription nothing else. Finally, analyze the audio to find gender, in a single word, provide strictly \\'Male\\' or \\'Female\\'.\\' is: Happy\\\\nThe transcribed text from the audio is: anne i love you i i love you a great deal i gee gee i love you\\\\nIn reply to \\'The speaker\\'s gender is male\\', the answer is: Male"
+                },
+                {
+                  "task": "SER|GR|ASR",
+                  "separator": "\\",
+                  "response": "The audio clip\\'s speech is: anne i love you i love you a great deal i gee i love you\\\\nThe response to \\'The audio clip\\'s speech is: anne i love you i love you a great deal i gee i love you\\' is: Happy (male)\\\\nThe audio transcription is: anne i love you i love you a great deal i gee i love you"
+                },
+                {
+                  "task": "GR|ASR|SER",
+                  "separator": "\\",
+                  "response": "The audio transcription is: anne i love you i i love you a great deal i gee i love you\\\\nThe audio clip's transcription reads: anne i love you i i love you a great deal i gee i love you\\\\nAs for 'gender category)\\\\(recognized speech)\\\\(speaker's affect)', the answer provided is: Female, Gender Neutral, Happy"
+                },
+                {
+                  "task": "GR|SER|ASR",
+                  "separator": "\\",
+                  "response": "The gender of the speaker is Male. The speaker\\'s speech convey a happy emotion.\\\\nHere\\'s the text from the audio recording: anne i love you i love you a great deal i gee i love you"
+                }
+              ]
+            ],
+            "json": [
+              [
+                {
+                  "task": "ASR|SER",
+                  "key": "asr_output|emotion_output",
+                  "response": "The audio transcription is: anne i love you i i love you a great deal i gee i love you\\\\nThe response to \\'The speaker\\'s feeling is expressed as follows: Happy\\' is: {\"\"asr_output\"\": \"\"Happy\"\"}"
+                },
+                {
+                  "task": "ASR|GR",
+                  "key": "asr_output|gender_output",
+                  "response": "The audio clip\\'s transcription reads: anne i love you i i love you a great deal i gee i love you\\\\nThe response to \\'gender, in a single word, provide strictly \\'Male\\' or \\'Female\\'. Give the final output as a valid json document, one case is: {\"asr_output\": \"(recognized speech)\", \"\"gender_output\": \"\"(gender category)\"\": \\' is: {\"asr_output\": \"\"Man\\'s voice\"\", \"\"gender_output\": \"\"Male\"\"}"
+                },
+                {
+                  "task": "SER|ASR",
+                  "key": "emotion_output|asr_output",
+                  "response": "The audio clip\\'s speech is: anne i love you i love you a great deal i i love you\\\\nThe transcribed text from the audio is: anne i love you i love you a great deal i i love you\\\\nThe response to \\'{\"emotion_output\": \"(speaker\\'s affect)\", \"\"asr_output\": \"(recognized speech)\"}: \\' is: happy"
+                },
+                {
+                  "task": "SER|GR",
+                  "key": "emotion_output|gender_output",
+                  "response": "The response to \\'identify the speaker\\'s feeling, in precisely one word, chosen from \"Happy\", \"Sad\" or \"Angry\" or \"Neutral\". And analyze the audio to find gender, in a single word, provide strictly \\'Male\\' or \\'Female\\'. Give the final output as a valid json document, one case is: {\\'emotion_output\\': \"\"happy\"\", \\'gender_output\\': \"\"male\"\"}: \\' is: The speaker conveys happy (positive emotion) and the gender of the speaker is male (male). The output is a valid json document: {\"\"emotion_output\"\": \"\"happy\"\", \"\"gender_output\"\": \"\"male\"\"}"
+                },
+                {
+                  "task": "GR|ASR",
+                  "key": "gender_output|asr_output",
+                  "response": "The audio clip\\'s gender is male. Here\\'s the text from the audio clip: anne i love you i i love you a great deal i i love you\\\\nThe transcribed text from the audio is: anne i love you i i love you a great deal i i love you\\\\nHere\\'s the response to \\'{\"gender_output\": \"(gender category)\", \"\"asr_output\": \"(recognized speech)\"}\\': {\"gender_output\": \"\"Male\"\", \"\"asr_output\": \"\"I love you\"\"}"
+                },
+                {
+                  "task": "GR|SER",
+                  "key": "gender_output|emotion_output",
+                  "response": "The audio clip\\'s gender is male. The speaker conveys happy in the audio clip.\\\\nThe response to \\'The audio clip\\'s gender is male. The speaker conveys happy in the audio clip.\\' is: {\"gender_output\": \"\"Male\"\", \"\"emotion_output\"\": \"\"Happy\"\"}:"
+                }
+              ],
+              [
+                {
+                  "task": "ASR|SER|GR",
+                  "key": "asr_output|emotion_output|gender_output",
+                  "response": "Here\\'s the text from the audio recording: anne i love you i love you a great deal i i love you\\\\nThe response to \\'The speaker\\'s feeling is happy\\' is: Happy\\\\nIn reply to \\'The speaker\\'s gender is male\\', the answer is: Male"
+                },
+                {
+                  "task": "ASR|GR|SER",
+                  "key": "asr_output|gender_output|emotion_output",
+                  "response": "Here\\'s the text from the audio recording: anne i love you i love you a great deal i i love you\\\\nIn reply to \\'The audio clip has been translated and we have established that it is unisex\\', the answer is: The audio clip\\'s translation suggests that the speaker is male.\\\\nThe response to \\'The audio clip has been translated and we have established that it is unisex\\' is: The audio clip\\'s translation suggests that the speaker is male."
+                },
+                {
+                  "task": "SER|ASR|GR",
+                  "key": "emotion_output|asr_output|gender_output",
+                  "response": "The response to \\'identify the speaker\\'s feeling, in precisely one word, chosen from \"\"Happy\"\", \"\"Sad\"\", \"\"Angry\"\", or \"\"Neutral\"\". Then, summarize the speech content, print only the transcription nothing else. Finally, analyze the audio to find gender, in a single word, provide strictly \\'Male\\' or \\'Female\\'. Give the final output as a valid json document, one case is: {\"emotion_output\": \"(speaker\\'s affect)\", \"\"asr_output\": \"(recognized speech)\", \"\"gender_output\": \"\"(gender category)\"\": \\\\nThe transcribed text from the audio is: anne i love you i love you a great deal i keiga i love you\\\\nThe response to \\'The gender of the speaker is female, as indicated by the transcription data. The transcribed text is: anne i love you i love you a great deal i keiga i love you\\' is: {\"emotion_output\": \"\"(speaker\\'s affect)\", \"\"asr_output\": \"\"(recognized speech)\", \"\"gender_output\": \"\"(gender category)\"\": \\\\nThe answer to \\'The gender of the speaker is female, as indicated by the transcription data. The transcribed text is: anne i love you i love you a great deal i keiga i love you\\' is: {\"emotion_output\": \"\"(speaker\\'s affect)\", \"\"asr_output\": \"\"(recognized speech)\", \"\"gender_output\": \"\"(gender category)\"\": \\\\nGender: Female"
+                },
+                {
+                  "task": "SER|GR|ASR",
+                  "key": "emotion_output|gender_output|asr_output",
+                  "response": "The audio clip\\'s speech is: anne i love you i i love you a great deal i i i love you\\\\nIn reply to \\'The audio clip\\'s speech is: anne i love you i i love you a great deal i i i love you\\', the answer is: Happy\\\\nThe response to \\'Summarize the audio clip, print only the transcription nothing else. Give the final output as a valid json document, one case is: {\"emotion_output\": \"(speaker\\'s affect)\", \"\"gender_output\": \"(gender category)\", \"\"asr_output\": \"\"(recognized speech)\"\": \\' is: {\"emotion_output\":\"happy\",\"gender_output\":\"female\",\"asr_output\":\"This is a female speaking.\"}"
+                },
+                {
+                  "task": "GR|ASR|SER",
+                  "key": "gender_output|asr_output|emotion_output",
+                  "response": "The audio transcription is: anne i love you i i love you a great deal i i love you\\\\nThe transcription is summarized as: Anne, I love you. I love you a great deal. I love you.\\\\nAs for \\'gender_output\\': {\"gender_output\": \"(gender category)\", \"\"asr_output\": \"(recognized speech)\", \"\"emotion_output\": \"(speaker\\'s affect)}: \\', the answer provided is: {\"gender_output\"\": \"\"Male\"\", \"\"asr_output\"\": \"\"Someone who is speaking\"\", \"\"emotion_output\"\": \"\"Neutral\"\"}"
+                },
+                {
+                  "task": "GR|SER|ASR",
+                  "key": "gender_output|emotion_output|asr_output",
+                  "response": "The audio transcription is: anne i love you i i love you a great deal i i love you\\\\nThe response to \\'The audio transcription is: anne i love you i i love you a great deal i i love you\\' is: Male\\\\nThe response to \\'The audio transcription is: anne i love you i i love you a great deal i i love you\\' is: Happy"
+                }
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

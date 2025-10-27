@@ -1,0 +1,34 @@
+{
+  "constrain": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "upper_case": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "lower_case": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "prefix": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "suffix": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "wrap": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "json": {
+    "ifr": 0.0,
+    "acc": 0.0
+  },
+  "all": {
+    "ifr": 0.0,
+    "acc": 0.0
+  }
+}

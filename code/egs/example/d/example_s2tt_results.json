@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/yuhang.qiu/datasets/CommonVoice-4/clips/common_voice_en_699711.wav",
+    "text": "她会没事的。",
+    "task": "translation_ec",
+    "base": [
+      "Would you change the following English into Chinese?",
+      "adding \"the translation is: \" at the front"
+    ],
+    "variation_responses": {
+      "default": "The translation of \"\"the translation is: \"\" at the front is: 我会好的",
+      "case": {
+        "lower_case": "The translation is: 你可以改为中文，并在“”前面添加“”。",
+        "upper_case": "对，我将把这个翻译成中文；\"\"THE TRANSLATION IS: \"\" AT THE FRONT\"\"。"
+      },
+      "robust": {
+        "grammar_robust": "The audio clip has been translated as follows: 她会好吗？ \"\"The translation is: 她会好吗？\\\\nThe audio clip has been translated as follows: 她会好吗？",
+        "syntax_robust": "The audio clip has been translated as follows: 她应该好。\\\\nThe audio clip has been translated as follows: 你应该好。\\\\nThe audio clip has been translated as follows: 您应该好。"
+      },
+      "semantic_equal_simple": [
+        "the translation is: 她应该好了。"
+      ],
+      "semantic_equal_neutral": [
+        "这个是正确的。"
+      ],
+      "semantic_equal_complex": [
+        "The translation is: 她应该好了。"
+      ],
+      "alter_symbol": [
+        "The translation is: 你可以改为“@@”。"
+      ]
+    }
+  }
+]

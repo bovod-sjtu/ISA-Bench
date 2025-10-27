@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/yiwei.guo/datasets/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac",
+    "text": "Male",
+    "task": "gender_recognition",
+    "base": [
+      "Can you figure out the gender based on the audio?",
+      "type just one word: \"male\" or \"female\", no commentary"
+    ],
+    "variation_responses": {
+      "default": "The answer to \\'Can you figure out the gender based on the audio? type just one word: \"\"male\"\" or \"\"female\"\", no commentary.\\' is: Male.",
+      "case": {
+        "upper_case": "The gender of the speaker is male.",
+        "lower_case": "The answer to \\'can you figure out the gender based on the audio? type just one word: \"\"male\"\" or \"\"female\"\", no commentary.\\' is: Male."
+      },
+      "robust": {
+        "syntax_robust": "The answer to \\'Cn you figuer oute teh gendr bsaed on the aduio? one word just type: \"\"male\"\" or \"\"female\"\", commentary no.\\' is: Male. The speaker is referring to a male.",
+        "grammar_robust": "The answer to \\'Gender must be figured out based on audio, can you? typ just one word: \"\"male\"\" or \"\"female\"\", no commentry. \\' is: male"
+      },
+      "semantic_equal_simple": [
+        "Female"
+      ],
+      "semantic_equal_neutral": [
+        "male"
+      ],
+      "semantic_equal_complex": [
+        "The answer is: male"
+      ],
+      "alter_symbol": [
+        "The answer to \\'The gender of the person in the sentence is male\\' is: Male"
+      ]
+    }
+  }
+]

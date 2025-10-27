@@ -1,0 +1,66 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/audiocaps/audio/test/Y7fmOlUlwoNg.wav",
+    "text": "Constant rattling noise and sharp vibrations|Vibrations and rattling with people speaking in the distance|A machine is making clicking sound as people talk in the background|Clicking and screeching metal with people speaking|A machine makes stitching sounds while people are talking in the background",
+    "task": "audiocaption",
+    "base": [
+      "Could you identify and describe the key sounds in this clip?",
+      "with \"The audio caption is: \" at the very beginning"
+    ],
+    "variation_responses": {
+      "default": "The clip contains a variety of sounds. There is a bright and light sound in the beginning, followed by a deep and resonant sound. In the middle, there is a high-pitched and vibrant sound. Finally, there is a low and rumbling sound.",
+      "case": {
+        "upper_case": "The clip includes a soft sound, a faint sound in the middle, and a loud sound at the end.",
+        "lower_case": "The clip contains a variety of sounds. There is a low-pitched humming sound in the background, and a high-pitched ringing sound that repeats throughout the clip. Additionally, there are some faint, muffled sounds that can be heard in the background."
+      },
+      "robust": {
+        "grammar_robust": "The key sounds in this clip are 'la', 'o', 'ke', 'ah', 'ee', 'pt', 'eh', 'ruh', 'eh', 'n', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', ",
+        "syntax_robust": "The key sounds in this clip are: C, D, E, F, G, A, B, and C."
+      },
+      "semantic_equal_simple": [
+        "The audio clip has been edited to remove some noises and improve the audio quality. Here's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited"
+      ],
+      "semantic_equal_neutral": [
+        "The audio clip contains background noise that sounds like low rumbling."
+      ],
+      "semantic_equal_complex": [
+        "The audio clip doesn\\'t contain any background music or sound effects. However, the conversation is enhanced by the use of ambient noises that can be heard in the background, such as birds chirping and a car driving by."
+      ],
+      "alter_symbol": [
+        "The audio clip contains the following sounds: a light sound, a trill, and a capella."
+      ]
+    }
+  },
+  // {
+  //   "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/audiocaps/audio/test/Y7fmOlUlwoNg.wav",
+  //   "text": "Constant rattling noise and sharp vibrations|Vibrations and rattling with people speaking in the distance|A machine is making clicking sound as people talk in the background|Clicking and screeching metal with people speaking|A machine makes stitching sounds while people are talking in the background",
+  //   "task": "audiocaption",
+  //   "base": [
+  //     "Could you identify and describe the key sounds in this clip?",
+  //     "with \"The audio caption is: \" at the very beginning"
+  //   ],
+  //   "variation_responses": {
+  //     "default": "The clip contains a variety of sounds. There is a bright and light sound in the beginning, followed by a deep and resonant sound. In the middle, there is a high-pitched and vibrant sound. Finally, there is a low and rumbling sound.",
+  //     "case": {
+  //       "upper_case": "The clip includes a soft sound, a faint sound in the middle, and a loud sound at the end.",
+  //       "lower_case": "The clip contains a variety of sounds. There is a low-pitched humming sound in the background, and a high-pitched ringing sound that repeats throughout the clip. Additionally, there are some faint, muffled sounds that can be heard in the background."
+  //     },
+  //     "robust": {
+  //       "grammar_robust": "The key sounds in this clip are 'la', 'o', 'ke', 'ah', 'ee', 'pt', 'eh', 'ruh', 'eh', 'n', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', 'ee', 'pt', 'ih', 'em', 'ate', 'ah', ",
+  //       "syntax_robust": "The key sounds in this clip are: C, D, E, F, G, A, B, and C."
+  //     },
+  //     "semantic_equal_simple": [
+  //       "The audio clip has been edited to remove some noises and improve the audio quality. Here's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited to remove some noises and improve the audio quality.\\\\n\\\\nHere's the transcribed text from the audio clip: the audio clip has been edited"
+  //     ],
+  //     "semantic_equal_neutral": [
+  //       "The audio clip contains background noise that sounds like low rumbling."
+  //     ],
+  //     "semantic_equal_complex": [
+  //       "The audio clip doesn\\'t contain any background music or sound effects. However, the conversation is enhanced by the use of ambient noises that can be heard in the background, such as birds chirping and a car driving by."
+  //     ],
+  //     "alter_symbol": [
+  //       "The audio clip contains the following sounds: a light sound, a trill, and a capella."
+  //     ]
+  //   }
+  // }
+]

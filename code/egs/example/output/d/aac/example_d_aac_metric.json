@@ -1,0 +1,62 @@
+{
+  "alter_symbol": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "default": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "grammar_robust": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "lower_case": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "semantic_equal_complex": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "semantic_equal_neutral": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "semantic_equal_simple": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "syntax_robust": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "upper_case": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "all": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  }
+}

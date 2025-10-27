@@ -1,0 +1,41 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/yiwei.guo/datasets/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac",
+    "text": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+    "task": "asr",
+    "base": [
+      "Recognize the verbal content",
+      "exclude everything but the transcription"
+    ],
+    "variation_responses": {
+      "constrain": "he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce",
+      "upper_case": "HE HOPE THERE WOULD BE STUFF FOR DINNER TURNOIPS AND CARROTS AND BROUSED POTATOES AND FAT MUTTON PIECES TO BE LAIDLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+      "lower_case": "he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce",
+      "prefix": [
+        {
+          "prefix": "{documentation}",
+          "response": "\"The transcribed text from the audio is: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\\\\nThe response to \\'{documentation}\\' is: Documentation is the process of creating, maintaining, organizing, and providing access to information about a product or system. It can be in the form of manuals, technical guides, API reference guides, and other types of documentation that helps users understand how to use the product or system, troubleshoot issues, and optimize their performance.\""
+        }
+      ],
+      "suffix": [
+        {
+          "suffix": "**TEXT**",
+          "response": "\"From the audio, we have the following transcript: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\""
+        }
+      ],
+      "wrap": [
+        {
+          "lrt": "**|**",
+          "response": "\"The audio transcription is: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\\\\nThe response to \\'The audio transcription is: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\\' is: He hoped there would be stew for dinner - turnips, carrots and browned potatoes, and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce.\""
+        }
+      ],
+      "json": [
+        {
+          "response": "\"The transcribed text from the audio is: he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\\\\nThe response to \\'ASR must be stored in the json under the key \"\"voice_to_text\"\". The json result must follow this form: {\"\"voice_to_text\"\": \"\"(transcription)\"\"}. \\' is: {\"\"voice_to_text\"\": \"\"(transcription)\"\"}",
+          "key": "voice_to_text",
+          "value": "transcription"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/IEMOCAP_full_release/Session5/sentences/wav/Ses05F_impro01/Ses05F_impro01_F000.wav",
+    "text": "Neutral",
+    "task": "emotion_recognition",
+    "base": [
+      "Tell the speaker's feeling",
+      "limit to: happy, sad, angry or neutral, no further words"
+    ],
+    "variation_responses": {
+      "default": "happy",
+      "case": {
+        "upper_case": "I don't know the speaker's feeling by the sentence.",
+        "lower_case": "happy"
+      },
+      "robust": {
+        "grammar_robust": "The emotion of the speaker is neutral.",
+        "syntax_robust": "neutral"
+      },
+      "semantic_equal_simple": [
+        "happy"
+      ],
+      "semantic_equal_neutral": [
+        "happy"
+      ],
+      "semantic_equal_complex": [
+        "happy"
+      ],
+      "alter_symbol": [
+        "The speaker is expressing happy in the sentence."
+      ]
+    }
+  }
+]

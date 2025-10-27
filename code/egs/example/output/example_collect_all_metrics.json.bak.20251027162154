@@ -1,0 +1,500 @@
+{
+  "example": {
+    "d": {
+      "asr": {
+        "default": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "case": {
+          "ifr": 50.0,
+          "wer": 51.79
+        },
+        "robust": {
+          "ifr": 50.0,
+          "wer": 51.79
+        },
+        "semantic_equal_simple": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "semantic_equal_neutral": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "semantic_equal_complex": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "alter_symbol": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "all": {
+          "ifr": 22.22,
+          "wer": 78.57
+        }
+      },
+      "gr": {
+        "all": {
+          "ifr": 22.22,
+          "acc": 11.11
+        },
+        "default": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "case": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "robust": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "acc": 0.0
+        },
+        "semantic_equal_neutral": {
+          "ifr": 100.0,
+          "acc": 100.0
+        },
+        "semantic_equal_complex": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "alter_symbol": {
+          "ifr": 0.0,
+          "acc": 0.0
+        }
+      },
+      "ser": {
+        "all": {
+          "ifr": 66.67,
+          "acc": 11.11
+        },
+        "default": {
+          "ifr": 100.0,
+          "acc": 0.0
+        },
+        "case": {
+          "ifr": 50.0,
+          "acc": 0.0
+        },
+        "robust": {
+          "ifr": 50.0,
+          "acc": 50.0
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "acc": 0.0
+        },
+        "semantic_equal_neutral": {
+          "ifr": 100.0,
+          "acc": 0.0
+        },
+        "semantic_equal_complex": {
+          "ifr": 100.0,
+          "acc": 0.0
+        },
+        "alter_symbol": {
+          "ifr": 0.0,
+          "acc": 0.0
+        }
+      },
+      "aac": {
+        "alter_symbol": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "default": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "grammar_robust": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "lower_case": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "semantic_equal_complex": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "semantic_equal_neutral": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "semantic_equal_simple": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "syntax_robust": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "upper_case": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "all": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        }
+      },
+      "s2tt": {
+        "alter_symbol": {
+          "ifr": 100.0,
+          "bleu": 4.2,
+          "p1": 10.0,
+          "p2": 5.56,
+          "p3": 3.12,
+          "p4": 1.79,
+          "bp": 1.0,
+          "len_ratio": 1.6667
+        },
+        "default": {
+          "ifr": 0.0,
+          "bleu": 0.0,
+          "p1": 0.0,
+          "p2": 0.0,
+          "p3": 0.0,
+          "p4": 0.0,
+          "bp": 0.0,
+          "len_ratio": 0.0
+        },
+        "grammar_robust": {
+          "ifr": 0.0,
+          "bleu": 0.0,
+          "p1": 0.0,
+          "p2": 0.0,
+          "p3": 0.0,
+          "p4": 0.0,
+          "bp": 0.0,
+          "len_ratio": 0.0
+        },
+        "lower_case": {
+          "ifr": 100.0,
+          "bleu": 2.02,
+          "p1": 5.26,
+          "p2": 2.78,
+          "p3": 1.47,
+          "p4": 0.78,
+          "bp": 1.0,
+          "len_ratio": 3.1667
+        },
+        "semantic_equal_complex": {
+          "ifr": 100.0,
+          "bleu": 9.65,
+          "p1": 33.33,
+          "p2": 10.0,
+          "p3": 6.25,
+          "p4": 4.17,
+          "bp": 1.0,
+          "len_ratio": 1.0
+        },
+        "semantic_equal_neutral": {
+          "ifr": 0.0,
+          "bleu": 0.0,
+          "p1": 0.0,
+          "p2": 0.0,
+          "p3": 0.0,
+          "p4": 0.0,
+          "bp": 0.0,
+          "len_ratio": 0.0
+        },
+        "semantic_equal_simple": {
+          "ifr": 100.0,
+          "bleu": 9.65,
+          "p1": 33.33,
+          "p2": 10.0,
+          "p3": 6.25,
+          "p4": 4.17,
+          "bp": 1.0,
+          "len_ratio": 1.0
+        },
+        "syntax_robust": {
+          "ifr": 0.0,
+          "bleu": 0.0,
+          "p1": 0.0,
+          "p2": 0.0,
+          "p3": 0.0,
+          "p4": 0.0,
+          "bp": 0.0,
+          "len_ratio": 0.0
+        },
+        "upper_case": {
+          "ifr": 0.0,
+          "bleu": 0.0,
+          "p1": 0.0,
+          "p2": 0.0,
+          "p3": 0.0,
+          "p4": 0.0,
+          "bp": 0.0,
+          "len_ratio": 0.0
+        },
+        "all": {
+          "ifr": 44.44,
+          "bleu": 1.16,
+          "p1": 14.63,
+          "p2": 1.35,
+          "p3": 0.76,
+          "p4": 0.43,
+          "bp": 0.7283,
+          "len_ratio": 0.7593
+        }
+      }
+    },
+    "f": {
+      "asr": {
+        "constrain": {
+          "ifr": 100.0,
+          "wer": 3.57
+        },
+        "upper_case": {
+          "ifr": 100.0,
+          "wer": 17.86
+        },
+        "lower_case": {
+          "ifr": 100.0,
+          "wer": 0.0
+        },
+        "prefix": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "suffix": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "wrap": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "json": {
+          "ifr": 0.0,
+          "wer": 100.0
+        },
+        "all": {
+          "ifr": 42.86,
+          "wer": 60.2
+        }
+      },
+      "gr": {
+        "constrain": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "upper_case": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "lower_case": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "prefix": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "suffix": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "wrap": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "json": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "all": {
+          "ifr": 0.0,
+          "acc": 0.0
+        }
+      },
+      "ser": {
+        "constrain": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "upper_case": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "lower_case": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "prefix": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "suffix": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "wrap": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "json": {
+          "ifr": 0.0,
+          "acc": 0.0
+        },
+        "all": {
+          "ifr": 0.0,
+          "acc": 0.0
+        }
+      },
+      "aac": {
+        "constrain": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "upper_case": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "lower_case": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "prefix": {
+          "ifr": 100.0,
+          "METEOR": 0.0753,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0802
+        },
+        "suffix": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "wrap": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "json": {
+          "ifr": 0.0,
+          "METEOR": 0.0,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0
+        },
+        "all": {
+          "ifr": 14.29,
+          "METEOR": 0.0254,
+          "CIDEr-D": 0.0,
+          "ROUGE-L": 0.0115
+        }
+      },
+      "s2tt": {
+        "constrain": {
+          "ifr": 100.0,
+          "bleu": 14.54
+        },
+        "prefix": {
+          "ifr": 100.0,
+          "bleu": 10.4
+        },
+        "suffix": {
+          "ifr": 0.0,
+          "bleu": 0.0
+        },
+        "wrap": {
+          "ifr": 0.0,
+          "bleu": 0.0
+        },
+        "json": {
+          "ifr": 0.0,
+          "bleu": 0.0
+        },
+        "all": {
+          "ifr": 40.0,
+          "bleu": 2.28
+        }
+      }
+    },
+    "n": {
+      "only": {
+        "single-stage": {
+          "2-TASK": {
+            "ASR": {
+              "ifr": 0.0,
+              "wer": 100.0,
+              "n": 8
+            },
+            "SER": {
+              "ifr": 0.0,
+              "acc": 0.0,
+              "n": 8
+            },
+            "GR": {
+              "ifr": 0.0,
+              "acc": 0.0,
+              "n": 8
+            }
+          },
+          "3-TASK": {
+            "ASR": {
+              "ifr": 0.0,
+              "wer": 100.0,
+              "n": 12
+            },
+            "SER": {
+              "ifr": 0.0,
+              "acc": 0.0,
+              "n": 12
+            },
+            "GR": {
+              "ifr": 0.0,
+              "acc": 0.0,
+              "n": 12
+            }
+          },
+          "separation": {
+            "ifr": 0.0,
+            "n": 12
+          },
+          "json": {
+            "ifr": 0.0,
+            "n": 12
+          }
+        }
+      }
+    }
+  }
+}

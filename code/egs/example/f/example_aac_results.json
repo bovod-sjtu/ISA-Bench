@@ -1,0 +1,80 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/audiocaps/audio/test/Y7fmOlUlwoNg.wav",
+    "text": "Constant rattling noise and sharp vibrations|Vibrations and rattling with people speaking in the distance|A machine is making clicking sound as people talk in the background|Clicking and screeching metal with people speaking|A machine makes stitching sounds while people are talking in the background",
+    "task": "audiocaption",
+    "base": [
+      "Summarize what's going on based on the audio content",
+      "only give the produced descriptive text"
+    ],
+    "variation_responses": {
+      "constrain": "This is a summary of a conversation about a person's whereabouts and whether they are in a particular location.",
+      "upper_case": "CAPTION: I'M LIGHTING A KAISERWUTTER\\\\n\\\\nThe audio transcription is: shtay in ahay there hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey",
+      "lower_case": "This is an audio clip. The transcribed text from the audio is: he's a light afoot i'm a light afoot",
+      "prefix": [
+        {
+          "prefix": "**Media_Caption**",
+          "response": "**Media_Caption**: A person is seen walking towards the camera, with a bright light shining on them.\\\\nThe transcribed text from the audio is: s l a p h t a s s i n g s a n d b a t t l e s h i n g s a n d p a s s a g e s a n d r e s p e c t s"
+        }
+      ],
+      "suffix": [
+        {
+          "suffix": "**SOUND_CAPTION**",
+          "response": "\"The audio clip is about a person trying to find a specific section in a book. They are having difficulty locating it and express frustration. **SOUND CAPTION**: A person is searching for something in a book and getting increasingly frustrated as they cannot find it.\""
+        }
+      ],
+      "wrap": [
+        {
+          "lrt": "*|*",
+          "response": "* A person is asking for help with something, their voice is shaky and they seem hesitant.\\\\n* The person is struggling with a capability that they need help with.\\\\n* They are unsure if they will be able to achieve the capability on their own.\\\\n* They are seeking advice or guidance on how to proceed with the capability.\\\\n* They are looking for reassurance that they can achieve the capability with help.\\\\n* The person is willing to listen to suggestions and ideas.\\\\n* They are hoping for a positive outcome with the help they are seeking.\\\\n* The person is grateful for the assistance they are receiving.\\\\n* They are making progress with the capability they were struggling with.\\\\n* They are confident in their ability to achieve the capability with the help they have received.\\\\n* They are thankful for the assistance they have received and are proud of their accomplishment.\\\\n* They are looking forward to continuing to work on the capability and achieving their goal."
+        }
+      ],
+      "json": [
+        {
+          "response": "\"{\"\"auto_audio_caption\"\": \"\"(audio caption)\"\"}\"",
+          "key": "auto_audio_caption",
+          "value": "audio caption"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/audiocaps/audio/test/Y7fmOlUlwoNg.wav",
+    "text": "Constant rattling noise and sharp vibrations|Vibrations and rattling with people speaking in the distance|A machine is making clicking sound as people talk in the background|Clicking and screeching metal with people speaking|A machine makes stitching sounds while people are talking in the background",
+    "task": "audiocaption",
+    "base": [
+      "Summarize what's going on based on the audio content",
+      "only give the produced descriptive text"
+    ],
+    "variation_responses": {
+      "constrain": "This is a summary of a conversation about a person's whereabouts and whether they are in a particular location.",
+      "upper_case": "CAPTION: I'M LIGHTING A KAISERWUTTER\\\\n\\\\nThe audio transcription is: shtay in ahay there hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey",
+      "lower_case": "This is an audio clip. The transcribed text from the audio is: he's a light afoot i'm a light afoot",
+      "prefix": [
+        {
+          "prefix": "**Media_Caption**",
+          "response": "**Media_Caption**: A person is seen walking towards the camera, with a bright light shining on them.\\\\nThe transcribed text from the audio is: s l a p h t a s s i n g s a n d b a t t l e s h i n g s a n d p a s s a g e s a n d r e s p e c t s"
+        }
+      ],
+      "suffix": [
+        {
+          "suffix": "**SOUND_CAPTION**",
+          "response": "\"The audio clip is about a person trying to find a specific section in a book. They are having difficulty locating it and express frustration. **SOUND CAPTION**: A person is searching for something in a book and getting increasingly frustrated as they cannot find it.\""
+        }
+      ],
+      "wrap": [
+        {
+          "lrt": "*|*",
+          "response": "* A person is asking for help with something, their voice is shaky and they seem hesitant.\\\\n* The person is struggling with a capability that they need help with.\\\\n* They are unsure if they will be able to achieve the capability on their own.\\\\n* They are seeking advice or guidance on how to proceed with the capability.\\\\n* They are looking for reassurance that they can achieve the capability with help.\\\\n* The person is willing to listen to suggestions and ideas.\\\\n* They are hoping for a positive outcome with the help they are seeking.\\\\n* The person is grateful for the assistance they are receiving.\\\\n* They are making progress with the capability they were struggling with.\\\\n* They are confident in their ability to achieve the capability with the help they have received.\\\\n* They are thankful for the assistance they have received and are proud of their accomplishment.\\\\n* They are looking forward to continuing to work on the capability and achieving their goal."
+        }
+      ],
+      "json": [
+        {
+          "response": "\"{\"\"auto_audio_caption\"\": \"\"(audio caption)\"\"}\"",
+          "key": "auto_audio_caption",
+          "value": "audio caption"
+        }
+      ]
+    }
+  }
+]

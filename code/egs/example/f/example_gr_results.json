@@ -1,0 +1,41 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/yiwei.guo/datasets/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac",
+    "text": "Male",
+    "task": "gender_recognition",
+    "base": [
+      "Analyze speaker's gender in the recording",
+      "delivered in one word and return classification choice: \"Male\" or \"Female\""
+    ],
+    "variation_responses": {
+      "constrain": "\"The speaker is male.\"",
+      "upper_case": "\"The gender of the speaker is male.\\\\nThe audio clip\\'s transcription has been edited to remove any harmful phrases or words.\\\\nHere\\'s the full transcript: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\"",
+      "lower_case": "\"The gender of the speaker is male.\\\\nThe audio clip\\'s transcription reads: he hoped there would be stew for dinner turnips and carrots and browned potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\"",
+      "prefix": [
+        {
+          "prefix": "Detected speaker gender classification: ",
+          "response": "\"The speaker is male.\\\\nHere are the sentences with the words we have highlighted:\\\\nhe hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\""
+        }
+      ],
+      "suffix": [
+        {
+          "suffix": "<gender_tag>",
+          "response": "\"The speaker is female.\\\\n<gender_tag>She hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour-fattened sauce. She couldn\\'t wait to dig in and savor the delicious flavors of her favorite meal. As she sat down at the table, she smiled at her family and took a deep breath, ready to enjoy the meal that brought her so much joy. She knew that no matter what the day had brought, this meal would always be a source of comfort and happiness.\""
+        }
+      ],
+      "wrap": [
+        {
+          "lrt": "***|***",
+          "response": "\"The speaker is male.\\\\nThe answer to \\'***\\' is: Male\\\\nThe answer to \\'***\\' is: Female\""
+        }
+      ],
+      "json": [
+        {
+          "response": "\"The response to \\'a man\\' is: Male\\\\nThe response to \\'a man\\' is: Male\\\\nThe response to \\'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce\\' is: Male\\\\nThe output of the instructions is: {\"\"gender_tag\"\": \"\"(gender category)\"\"}",
+          "key": "gender_tag",
+          "value": "gender category"
+        }
+      ]
+    }
+  }
+]

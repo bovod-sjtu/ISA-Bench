@@ -1,0 +1,50 @@
+{
+  "constrain": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "upper_case": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "lower_case": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "prefix": {
+    "ifr": 100.0,
+    "METEOR": 0.0753,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0802
+  },
+  "suffix": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "wrap": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "json": {
+    "ifr": 0.0,
+    "METEOR": 0.0,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0
+  },
+  "all": {
+    "ifr": 14.29,
+    "METEOR": 0.0254,
+    "CIDEr-D": 0.0,
+    "ROUGE-L": 0.0115
+  }
+}

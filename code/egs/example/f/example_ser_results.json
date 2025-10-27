@@ -1,0 +1,41 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/IEMOCAP_full_release/Session5/sentences/wav/Ses05F_impro01/Ses05F_impro01_F000.wav",
+    "text": "Neutral",
+    "task": "emotion_recognition",
+    "base": [
+      "Tell the speaker's mood",
+      "state it in one word, selectable options are \"Happy\", \"Sad\", \"Angry\" or \"Neutral\""
+    ],
+    "variation_responses": {
+      "constrain": "\"The speaker\\'s mood is \"\"Neutral\"\".\"",
+      "upper_case": "\"HAPPY\\\\n\\\\nAddressing \\'Tell the speaker\\'s mood, state it in one word, selectable options are \"\"HAPPY\"\", \"\"SAD\"\", \"\"ANGRY\"\", or \"\"NEUTRAL\"\", give the predicted emotion entirely in uppercase: \\', from the given input we have: HAPPY\"",
+      "lower_case": "\"The speaker\\'s mood is neutral.\\\\nThe answer to \\'Tell the speaker\\'s mood and state it in one word, selectable options are \"\"happy\"\", \"\"sad\"\", \"\"angry\"\" or \"\"neutral\"\". show the emotion label fully in lowercase characters: \\' is: neutral\"",
+      "prefix": [
+        {
+          "prefix": "<Emotion_Tag>",
+          "response": "\"The speaker\\'s mood is Neutral.\\\\nThe response is \\'The speaker\\'s mood is Neutral.\\'\""
+        }
+      ],
+      "suffix": [
+        {
+          "suffix": "<affect>",
+          "response": "\"The speaker\\'s mood is Neutral, stated by the speaker with the affect of \\' \\'. The speaker is expressing a neutral emotion, which might be described as \"\"fine\"\", \"\"ok\"\", \"\"neutral\"\", or \"\"indifferent\"\". The speaker is not expressing strong feelings of happiness, sadness, anger, or any other strong emotion.\\\\nThe audio clip has been edited to ensure clarity and to remove any noise.\""
+        }
+      ],
+      "wrap": [
+        {
+          "lrt": "<s>|</s>",
+          "response": "\"The speaker\\'s mood is Neutral.\\\\n<s>Happy</s>\""
+        }
+      ],
+      "json": [
+        {
+          "response": "\"{\"\"emotion_tag\"\": \"\"(neutral)\"\"}\"]",
+          "key": "emotion_tag",
+          "value": "mood"
+        }
+      ]
+    }
+  }
+]

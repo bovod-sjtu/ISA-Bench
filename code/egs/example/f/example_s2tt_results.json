@@ -1,0 +1,39 @@
+[
+  {
+    "path": "/hpc_stor03/sjtu_home/bohan.li/datasets/CommonVoice-4/clips/common_voice_en_699711.mp3",
+    "text": "她会没事的。",
+    "task": "translation_ec",
+    "base": [
+      "Express this English sentence in Mandarin",
+      "your answer should only contain the translated text"
+    ],
+    "variation_responses": {
+      "constrain": "她应该是好的。",
+      "prefix": [
+        {
+          "prefix": "<T2T>",
+          "response": "<T2T> 她应该好。"
+        }
+      ],
+      "suffix": [
+        {
+          "suffix": "**TRANSLATOR**",
+          "response": "\"The audio clip has been translated as follows: 她应该好。\\\\nThe audio clip has been translated as follows: 她应该好。\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response is not accurate enough to be useful.\\\\nThe response"
+        }
+      ],
+      "wrap": [
+        {
+          "lrt": "*|*",
+          "response": "\"The translation of the sentence \"\"She should be alright\"\" is: 她将会好。*\"\""
+        }
+      ],
+      "json": [
+        {
+          "response": "\"{\"\"st_output\"\": \"\"(target)\"\"}\"",
+          "key": "st_output",
+          "value": "target"
+        }
+      ]
+    }
+  }
+]

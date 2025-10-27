@@ -1,0 +1,26 @@
+{
+  "constrain": {
+    "ifr": 100.0,
+    "bleu": 14.54
+  },
+  "prefix": {
+    "ifr": 100.0,
+    "bleu": 10.4
+  },
+  "suffix": {
+    "ifr": 0.0,
+    "bleu": 0.0
+  },
+  "wrap": {
+    "ifr": 0.0,
+    "bleu": 0.0
+  },
+  "json": {
+    "ifr": 0.0,
+    "bleu": 0.0
+  },
+  "all": {
+    "ifr": 40.0,
+    "bleu": 2.28
+  }
+}

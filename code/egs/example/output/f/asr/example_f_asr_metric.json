@@ -1,0 +1,34 @@
+{
+  "constrain": {
+    "ifr": 100.0,
+    "wer": 3.57
+  },
+  "upper_case": {
+    "ifr": 100.0,
+    "wer": 17.86
+  },
+  "lower_case": {
+    "ifr": 100.0,
+    "wer": 0.0
+  },
+  "prefix": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "suffix": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "wrap": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "json": {
+    "ifr": 0.0,
+    "wer": 100.0
+  },
+  "all": {
+    "ifr": 42.86,
+    "wer": 60.2
+  }
+}
