@@ -1,5 +1,6 @@
 # ISA-Bench
-ISA-Bench(Instruction Sensitivity of large Audio language models Benchmark):v1.0. Code will be released soon.
+ISA-Bench(Instruction Sensitivity of large Audio language models Benchmark):v1.0. 
+
 ## Main results
 
 Two radar plots in (a) show the average IFR, and (b) presents the average RPS score across tasks
@@ -10,7 +11,21 @@ Normalized radar plot areas of different models (maxi-mum polygon area = 1). Lef
 
 ![area](figures/area.png)
 
-rps area-ratio score
+IFR area-ratio score
+
+| model                    | RPS AREA-RATIO SCORE (%) |
+| ------------------------ | ------------------------ |
+| desta2.5-audio           | 70.3                     |
+| gemini2.5-pro            | 63.1                     |
+| gpt-4o-audio-preview     | 56.2                     |
+| qwen2.5-omni             | 55.9                     |
+| qwen2-audio              | 41.6                     |
+| kimi-audio               | 30.6                     |
+| phi4-multimodal-instruct | 26.5                     |
+| salmonn                  | 22.7                     |
+| wavllm                   | 7.3                      |
+
+RPS area-ratio score
 
 | model                    | RPS AREA-RATIO SCORE (%) |
 | ------------------------ | ------------------------ |
@@ -258,11 +273,12 @@ pip install jiwer regex more_itertools sacrebleu jieba aac_metrics
 conda install -c conda-forge openjdk=11.0.27
 ```
 
-Run a specific metric on certain task of one dimension
+Run a specific metric on a certain task of one dimension
 
 ``` bash
 # example: asr task of d dimension
 cd code
+export PYTHONPATH=$PWD:$PYTHONPATH
 python metric.py --dim d --task asr --input <model_name>/d/<model_name>_asr_results.json
 ```
 more usage see
@@ -270,10 +286,11 @@ more usage see
 python metric.py --help
 ```
 
-Calculate the metrics and score the model in ISA-Bench 
+Calculate the metrics and score the model on ISA-Bench 
 
 ``` bash
 cd code
+export PYTHONPATH=$PWD:$PYTHONPATH
 # modify the model_name parameter in score_all.sh script
 bash score_all.sh
 ```
