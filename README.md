@@ -281,11 +281,6 @@ cd code
 export PYTHONPATH=$PWD:$PYTHONPATH
 python metric.py --dim d --task asr --input <model_name>/d/<model_name>_asr_results.json
 ```
-more usage see
-``` bash
-python metric.py --help
-```
-
 Calculate the metrics and score the model on ISA-Bench 
 
 ``` bash
@@ -293,4 +288,17 @@ cd code
 export PYTHONPATH=$PWD:$PYTHONPATH
 # modify the model_name parameter in score_all.sh script
 bash score_all.sh
+```
+
+## Citation
+```latex
+@misc{li2025isabenchbenchmarkinginstructionsensitivity,
+      title={ISA-Bench: Benchmarking Instruction Sensitivity for Large Audio Language Models}, 
+      author={Bohan Li and Wenbin Huang and Yuhang Qiu and Yiwei Guo and Hankun Wang and Zhihan Li and Jing Peng and Ziyang Ma and Xie Chen and Kai Yu},
+      year={2025},
+      eprint={2510.23558},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2510.23558}, 
+}
 ```
