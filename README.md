@@ -1,7 +1,7 @@
-# ISA-Bench
+# :100: ISA-Bench
 ISA-Bench(Instruction Sensitivity of large Audio language models Benchmark):v1.0. 
 
-## Main results
+## 🎯 Main results
 
 Two radar plots in (a) show the average IFR, and (b) presents the average RPS score across tasks
 
@@ -40,7 +40,7 @@ RPS area-ratio score
 | wavllm                   | 3.3                      |
 
 
-## Detailed Results
+## 📌 Detailed Results
 We report the detailed results of ISA-Bench here. 
 
 <details>
@@ -290,7 +290,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 bash score_all.sh
 ```
 
-## Citation
+## :memo: Citation
 ```latex
 @misc{li2025isabenchbenchmarkinginstructionsensitivity,
       title={ISA-Bench: Benchmarking Instruction Sensitivity for Large Audio Language Models}, 
